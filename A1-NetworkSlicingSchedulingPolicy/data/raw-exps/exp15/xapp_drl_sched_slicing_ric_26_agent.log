@@ -1,0 +1,1839 @@
+2022-09-14 15:48:13,874 INFO     Agents loaded
+2022-09-14 15:48:13,929 WARNING  No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2022-09-14 15:48:13,929 INFO     Autoencoder loaded
+2022-09-14 15:52:06,314 INFO     Received data: '0,0,0.00,1.00,18,4\n0,0,0.01,1.00,18,1'
+2022-09-14 15:52:06,559 INFO     Action is [296] Reward_avg is: 0.0 reward for slice [0. 0. 0.]
+2022-09-14 15:52:06,559 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:06,559 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:11,316 INFO     Received data: '0,733,2.13,1.00,36,183\n0,93,2.16,1.00,36,177'
+2022-09-14 15:52:11,442 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:11,442 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:11,442 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:12,317 INFO     Using previous socket data
+2022-09-14 15:52:12,438 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:12,439 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:12,439 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:13,318 INFO     Using previous socket data
+2022-09-14 15:52:13,436 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:13,436 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:13,437 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:14,318 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:52:14,436 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:14,436 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:14,436 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:15,319 INFO     Received data: '0,733,2.15,1.00,36,186\n0,93,2.13,1.00,36,184'
+2022-09-14 15:52:15,438 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:52:15,438 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:15,439 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:16,320 INFO     Using previous socket data
+2022-09-14 15:52:16,442 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:52:16,442 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:16,442 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:17,320 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.13,1.00,36,89'
+2022-09-14 15:52:17,444 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:17,444 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:17,444 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:18,321 INFO     Received data: '0,0,2.13,1.00,36,192\n0,733,2.16,1.00,36,178'
+2022-09-14 15:52:18,443 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:18,443 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:18,443 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:19,322 INFO     Using previous socket data
+2022-09-14 15:52:19,441 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:19,441 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:19,441 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:20,323 INFO     Using previous socket data
+2022-09-14 15:52:20,441 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:20,442 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:20,442 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:21,323 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:52:21,444 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:21,445 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:21,445 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:22,324 INFO     Received data: '0,733,2.14,1.00,36,175\n0,733,2.16,1.00,36,177'
+2022-09-14 15:52:22,445 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:52:22,446 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:22,446 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:23,325 INFO     Using previous socket data
+2022-09-14 15:52:23,443 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:52:23,444 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:23,444 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:24,326 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nq'
+2022-09-14 15:52:24,450 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:24,450 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:24,450 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:25,326 INFO     Received data: '0,0,2.14,1.00,36,176\n0,733,2.15,1.00,36,193'
+2022-09-14 15:52:25,454 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:52:25,454 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:25,454 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:26,327 INFO     Received data: '0,733,2.16,1.00,36,90\n0,733,2.13,1.00,36,89'
+2022-09-14 15:52:26,455 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:52:26,455 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:26,455 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:27,328 INFO     Received data: '0,93,2.14,1.00,36,183\n0,105,2.14,1.00,36,176'
+2022-09-14 15:52:27,456 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:52:27,456 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:27,456 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:28,329 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nA\x11'
+2022-09-14 15:52:28,456 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:28,456 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:28,456 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:29,329 INFO     Received data: '0,0,2.13,1.00,36,179\n0,93,2.15,1.00,36,196'
+2022-09-14 15:52:29,625 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:29,626 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:29,626 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:30,330 INFO     Received data: '0,0,2.16,1.00,36,91\n0,733,2.13,1.00,36,89'
+2022-09-14 15:52:30,450 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:52:30,450 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:30,450 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:31,331 INFO     Received data: '0,93,2.14,1.00,36,186\n0,0,2.13,0.91,36,190'
+2022-09-14 15:52:31,451 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:52:31,451 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:31,451 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:32,331 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:52:32,451 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:32,451 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:32,451 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:33,332 INFO     Received data: '0,733,2.13,1.00,36,183\n0,93,2.16,1.00,36,178'
+2022-09-14 15:52:33,452 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:33,453 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:33,453 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:34,333 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\nq\x15'
+2022-09-14 15:52:34,452 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:52:34,452 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:34,453 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:35,334 INFO     Received data: '0,0,2.14,1.00,36,179\n0,0,2.13,1.00,36,196'
+2022-09-14 15:52:35,463 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:52:35,463 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:35,463 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:36,334 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:52:36,459 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:36,459 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:36,459 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:37,336 INFO     Received data: '0,733,2.16,1.00,36,183\n0,221,2.14,1.00,36,174'
+2022-09-14 15:52:37,462 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:52:37,462 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:37,462 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:38,336 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nA\x18'
+2022-09-14 15:52:38,466 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:38,466 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:38,466 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:39,337 INFO     Received data: '0,0,2.14,1.00,36,186\n0,0,2.13,1.00,36,184'
+2022-09-14 15:52:39,463 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:52:39,463 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:39,464 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:40,338 INFO     Using previous socket data
+2022-09-14 15:52:40,468 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:52:40,469 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:40,469 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:41,338 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\nq\x12'
+2022-09-14 15:52:41,466 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:52:41,466 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:41,466 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:42,339 INFO     Received data: '0,93,2.14,1.00,36,185\n0,273,2.14,1.00,36,176'
+2022-09-14 15:52:42,466 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:52:42,466 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:42,466 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:43,340 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:52:43,467 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:43,468 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:43,468 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:44,341 INFO     Received data: '0,733,2.14,1.00,36,176\n0,21,2.16,1.00,36,176'
+2022-09-14 15:52:44,468 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:52:44,468 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:44,468 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:45,341 INFO     Received data: '0,0,2.16,1.00,36,89\n0,0,2.13,1.00,36,89\nA\x15'
+2022-09-14 15:52:45,467 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:52:45,467 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:45,467 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:46,342 INFO     Received data: '0,0,2.14,1.00,36,178\n0,93,2.14,1.00,36,177'
+2022-09-14 15:52:46,470 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:52:46,470 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:46,471 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:47,343 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:52:47,470 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:47,470 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:47,470 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:48,344 INFO     Received data: '0,733,2.15,1.00,36,176\n0,93,2.14,1.00,36,174'
+2022-09-14 15:52:48,472 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:52:48,473 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:48,473 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:49,345 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\n\x11\x18'
+2022-09-14 15:52:49,472 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:52:49,472 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:49,472 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:50,346 INFO     Received data: '0,0,2.13,1.00,36,196\n0,0,2.14,1.00,36,176'
+2022-09-14 15:52:50,473 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:50,474 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:50,474 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:51,347 INFO     Using previous socket data
+2022-09-14 15:52:51,475 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:51,475 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:51,475 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:52,347 INFO     Received data: '0,733,2.16,1.00,36,90\n0,0,2.13,1.00,36,89'
+2022-09-14 15:52:52,477 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:52:52,477 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:52,477 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:53,348 INFO     Received data: '0,93,2.14,1.00,36,183\n0,0,2.13,1.00,36,175'
+2022-09-14 15:52:53,473 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:52:53,473 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:53,473 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:54,349 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:52:54,475 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:54,476 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:54,476 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:55,350 INFO     Received data: '0,733,2.13,1.00,36,183\n0,93,2.15,1.00,36,179'
+2022-09-14 15:52:55,478 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:52:55,478 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:55,478 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:56,351 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\n\x01\x15'
+2022-09-14 15:52:56,480 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:52:56,480 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:56,480 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:57,352 INFO     Received data: '0,93,2.14,1.00,36,181\n0,0,2.13,1.00,36,196'
+2022-09-14 15:52:57,484 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:52:57,484 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:57,484 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:52:58,353 INFO     Received data: '0,0,2.15,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:52:58,484 INFO     Action is [296] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:52:58,484 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:52:58,484 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:52:59,353 INFO     Received data: '0,733,2.15,1.00,36,184\n0,93,2.14,1.00,36,175'
+2022-09-14 15:52:59,482 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:52:59,483 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:52:59,483 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:00,354 INFO     Using previous socket data
+2022-09-14 15:53:00,487 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:53:00,487 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:00,487 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:01,355 INFO     Using previous socket data
+2022-09-14 15:53:01,480 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:53:01,480 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:01,481 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:02,356 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:53:02,483 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:02,484 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:02,484 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:03,357 INFO     Received data: '0,733,2.16,1.00,36,180\n0,93,2.14,1.00,36,178'
+2022-09-14 15:53:03,484 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:03,484 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:03,484 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:04,358 INFO     Using previous socket data
+2022-09-14 15:53:04,485 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:04,485 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:04,485 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:05,359 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.13,1.00,36,89'
+2022-09-14 15:53:05,494 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:05,494 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:05,494 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:06,359 INFO     Received data: '0,0,2.14,1.00,36,177\n0,733,2.15,1.00,36,187'
+2022-09-14 15:53:06,488 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:06,489 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:06,489 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:07,360 INFO     Using previous socket data
+2022-09-14 15:53:07,492 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:07,492 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:07,492 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:08,361 INFO     Using previous socket data
+2022-09-14 15:53:08,494 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:08,494 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:08,494 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:09,362 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:53:09,490 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:09,490 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:09,490 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:10,363 INFO     Received data: '0,733,2.16,1.00,36,176\n0,733,2.13,1.00,36,186'
+2022-09-14 15:53:10,491 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:10,491 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:10,491 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:11,364 INFO     Using previous socket data
+2022-09-14 15:53:11,492 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:11,492 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:11,492 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:12,365 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nq\x10'
+2022-09-14 15:53:12,493 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:12,493 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:12,493 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:13,366 INFO     Received data: '0,0,2.13,1.00,36,184\n0,733,2.16,1.00,36,176'
+2022-09-14 15:53:13,494 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:13,495 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:13,495 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:14,367 INFO     Received data: '0,733,2.16,1.00,36,90\n0,733,2.13,1.00,36,89'
+2022-09-14 15:53:14,493 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:14,493 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:14,493 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:15,368 INFO     Received data: '0,221,2.13,1.00,36,181\n0,0,2.14,1.00,36,187'
+2022-09-14 15:53:15,495 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:15,495 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:15,495 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:16,369 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nA\x13'
+2022-09-14 15:53:16,495 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:16,495 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:16,495 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:17,370 INFO     Received data: '0,0,2.14,1.00,36,176\n0,93,2.16,1.00,36,188'
+2022-09-14 15:53:17,497 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:17,497 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:17,497 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:18,370 INFO     Received data: '0,0,2.16,1.00,36,90\n0,733,2.13,1.00,36,89'
+2022-09-14 15:53:18,497 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:18,497 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:18,497 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:19,371 INFO     Received data: '0,93,2.15,1.00,36,181\n0,0,2.13,1.00,36,183'
+2022-09-14 15:53:19,501 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:53:19,501 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:19,501 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:20,372 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:53:20,506 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:20,506 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:20,506 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:21,373 INFO     Received data: '0,733,2.14,1.00,36,175\n0,221,2.15,1.00,36,184'
+2022-09-14 15:53:21,501 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:21,501 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:21,501 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:22,374 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\nq\x17'
+2022-09-14 15:53:22,501 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:22,501 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:22,502 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:23,375 INFO     Received data: '0,105,2.14,1.00,36,179\n0,0,2.14,1.00,36,180'
+2022-09-14 15:53:23,500 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:23,500 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:23,501 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:24,376 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:53:24,506 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:24,506 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:24,506 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:25,377 INFO     Received data: '0,733,2.16,1.00,36,184\n0,221,2.14,1.00,36,187'
+2022-09-14 15:53:25,504 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:25,504 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:25,504 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:26,378 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nA\x1a'
+2022-09-14 15:53:26,506 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:26,506 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:26,506 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:27,379 INFO     Received data: '0,0,2.14,1.00,36,176\n0,0,2.14,1.00,36,177'
+2022-09-14 15:53:27,499 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:27,499 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:27,499 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:28,380 INFO     Using previous socket data
+2022-09-14 15:53:28,752 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:28,752 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:28,752 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:29,381 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\nq\x14'
+2022-09-14 15:53:29,508 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:29,509 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:29,509 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:30,382 INFO     Received data: '0,733,2.14,1.00,36,176\n0,93,2.14,1.00,36,176'
+2022-09-14 15:53:30,509 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:30,510 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:30,510 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:31,383 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:53:31,507 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:31,507 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:31,507 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:32,384 INFO     Received data: '0,0,2.13,1.00,36,186\n0,93,2.15,1.00,36,182'
+2022-09-14 15:53:32,510 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:32,511 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:32,511 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:33,385 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\nA\x17'
+2022-09-14 15:53:33,512 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:33,512 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:33,512 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:34,386 INFO     Received data: '0,0,2.14,1.00,36,182\n0,93,2.13,1.00,36,181'
+2022-09-14 15:53:34,514 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:34,514 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:34,514 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:35,387 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:53:35,514 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:35,514 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:35,514 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:36,388 INFO     Received data: '0,733,2.16,1.00,36,177\n0,93,2.14,1.00,36,181'
+2022-09-14 15:53:36,515 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:36,515 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:36,515 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:37,389 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\n\x11\x1a'
+2022-09-14 15:53:37,516 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:37,516 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:37,516 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:38,390 INFO     Received data: '0,0,2.14,1.00,36,175\n0,0,2.13,1.00,36,193'
+2022-09-14 15:53:38,523 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:38,523 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:38,524 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:39,391 INFO     Using previous socket data
+2022-09-14 15:53:39,519 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:39,519 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:39,519 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:40,392 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\nA\x14'
+2022-09-14 15:53:40,519 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:40,519 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:40,519 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:41,393 INFO     Received data: '0,93,2.14,1.00,36,184\n0,0,2.13,1.00,36,174'
+2022-09-14 15:53:41,521 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:41,521 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:41,521 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:42,394 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:53:42,523 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:42,523 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:42,523 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:43,395 INFO     Received data: '0,0,2.13,1.00,36,191\n0,93,2.16,1.00,36,176'
+2022-09-14 15:53:43,523 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:43,523 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:43,523 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:44,396 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.12,1.00,36,89\n\x11\x17'
+2022-09-14 15:53:44,523 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:44,524 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:44,524 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:45,397 INFO     Received data: '0,0,2.14,1.00,36,187\n0,0,2.14,1.00,36,176'
+2022-09-14 15:53:45,524 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:53:45,524 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:45,524 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:46,398 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:53:46,524 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:46,524 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:46,524 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:47,399 INFO     Received data: '0,733,2.16,1.00,36,177\n0,93,2.14,1.00,36,184'
+2022-09-14 15:53:47,527 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:47,527 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:47,527 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:48,400 INFO     Using previous socket data
+2022-09-14 15:53:48,527 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:48,528 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:48,528 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:49,401 INFO     Using previous socket data
+2022-09-14 15:53:49,530 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:49,530 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:49,530 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:50,402 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:53:50,530 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:50,530 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:50,530 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:51,404 INFO     Received data: '0,733,2.15,1.00,36,186\n0,93,2.14,1.00,36,177'
+2022-09-14 15:53:51,530 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:53:51,530 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:51,530 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:52,405 INFO     Using previous socket data
+2022-09-14 15:53:52,533 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:53:52,533 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:52,533 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:53,406 INFO     Using previous socket data
+2022-09-14 15:53:53,533 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:53:53,533 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:53,533 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:54,407 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:53:54,533 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:54,533 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:54,534 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:55,408 INFO     Received data: '0,93,2.16,1.00,36,175\n0,105,2.13,1.00,36,182'
+2022-09-14 15:53:55,536 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:55,536 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:55,536 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:56,409 INFO     Using previous socket data
+2022-09-14 15:53:56,537 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:53:56,537 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:56,537 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:57,410 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:53:57,538 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:53:57,538 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:53:57,539 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:53:58,412 INFO     Received data: '0,733,2.15,1.00,36,185\n0,733,2.14,1.00,36,177'
+2022-09-14 15:53:58,543 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:53:58,543 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:58,543 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:53:59,413 INFO     Using previous socket data
+2022-09-14 15:53:59,540 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:53:59,541 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:53:59,541 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:00,414 INFO     Using previous socket data
+2022-09-14 15:54:00,540 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:54:00,541 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:00,541 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:01,415 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:54:01,543 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:01,543 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:01,543 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:02,416 INFO     Received data: '0,733,2.15,1.00,36,184\n0,733,2.14,1.00,36,176'
+2022-09-14 15:54:02,544 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:54:02,544 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:02,544 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:03,418 INFO     Using previous socket data
+2022-09-14 15:54:03,548 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:54:03,548 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:03,548 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:04,419 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\na\x15'
+2022-09-14 15:54:04,547 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:04,547 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:04,547 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:05,420 INFO     Received data: '0,0,2.13,1.00,36,176\n0,93,2.15,1.00,36,178'
+2022-09-14 15:54:05,546 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:05,546 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:05,547 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:06,421 INFO     Received data: '0,0,2.16,1.00,36,90\n0,733,2.13,1.00,36,89'
+2022-09-14 15:54:06,551 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:54:06,551 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:06,551 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:07,422 INFO     Received data: '0,21,2.14,1.00,36,178\n0,0,2.13,1.00,36,183'
+2022-09-14 15:54:07,555 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:54:07,555 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:07,556 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:08,423 INFO     Received data: '0,0,2.14,1.00,36,92\n0,733,2.16,1.00,36,90'
+2022-09-14 15:54:08,551 INFO     Action is [296] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:54:08,551 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:08,551 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:09,424 INFO     Received data: '0,0,2.15,1.00,36,185\n0,93,2.13,1.00,36,183'
+2022-09-14 15:54:09,549 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:54:09,549 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:09,549 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:10,426 INFO     Using previous socket data
+2022-09-14 15:54:10,553 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:54:10,553 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:10,553 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:11,427 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nQ\x12'
+2022-09-14 15:54:11,553 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:11,553 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:11,553 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:12,428 INFO     Received data: '0,53,2.13,1.00,36,183\n0,733,2.16,1.00,36,181'
+2022-09-14 15:54:12,555 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:12,555 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:12,555 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:13,429 INFO     Received data: '0,733,2.16,1.00,36,92\n0,0,2.13,1.00,36,89'
+2022-09-14 15:54:13,555 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:54:13,555 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:13,555 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:14,430 INFO     Received data: '0,93,2.14,1.00,36,175\n0,93,2.13,1.00,36,183'
+2022-09-14 15:54:14,558 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:54:14,558 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:14,558 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:15,431 INFO     Received data: '0,0,2.14,1.00,36,91\n0,0,2.13,1.00,36,89\n!\x15'
+2022-09-14 15:54:15,558 INFO     Action is [296] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:54:15,558 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:15,559 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:16,432 INFO     Received data: '0,0,2.13,1.00,36,183\n0,93,2.16,1.00,36,177'
+2022-09-14 15:54:16,560 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:16,560 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:16,560 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:17,434 INFO     Using previous socket data
+2022-09-14 15:54:17,557 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:17,557 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:17,558 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:18,435 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nQ'
+2022-09-14 15:54:18,561 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:18,561 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:18,562 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:19,436 INFO     Received data: '0,0,2.13,1.00,36,193\n0,733,2.15,1.00,36,176'
+2022-09-14 15:54:19,568 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:19,568 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:19,568 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:20,437 INFO     Using previous socket data
+2022-09-14 15:54:20,565 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:20,565 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:20,565 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:21,438 INFO     Using previous socket data
+2022-09-14 15:54:21,566 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:21,566 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:21,566 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:22,439 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nA\x12'
+2022-09-14 15:54:22,567 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:22,567 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:22,567 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:23,440 INFO     Received data: '0,0,2.14,1.00,36,175\n0,733,2.16,1.00,36,177'
+2022-09-14 15:54:23,570 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:54:23,570 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:23,570 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:24,442 INFO     Received data: '0,733,2.16,1.00,36,92\n0,0,2.13,1.00,36,89'
+2022-09-14 15:54:24,566 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:54:24,566 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:24,566 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:25,443 INFO     Received data: '0,93,2.13,1.00,36,174\n0,0,2.14,1.00,36,183'
+2022-09-14 15:54:25,569 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:25,569 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:25,569 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:26,444 INFO     Received data: '0,0,2.14,1.00,36,91\n0,0,2.13,1.00,36,89\n\x11\x15'
+2022-09-14 15:54:26,810 INFO     Action is [296] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:54:26,810 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:26,810 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:27,445 INFO     Received data: '0,0,2.13,1.00,36,89\n0,93,2.16,1.00,36,175'
+2022-09-14 15:54:27,572 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:27,572 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:27,572 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:28,447 INFO     Received data: '0,93,2.15,1.00,36,182\n0,93,2.13,1.00,36,190'
+2022-09-14 15:54:28,579 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:54:28,579 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:28,579 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:29,448 INFO     Received data: '0,0,2.14,1.00,36,91\n0,0,2.13,1.00,36,89\n1'
+2022-09-14 15:54:29,577 INFO     Action is [296] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:54:29,577 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:29,577 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:30,449 INFO     Received data: '0,0,2.13,1.00,36,180\n0,0,2.16,1.00,36,174'
+2022-09-14 15:54:30,575 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:30,575 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:30,575 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:31,450 INFO     Using previous socket data
+2022-09-14 15:54:31,578 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:31,578 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:31,578 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:32,452 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\na\x19'
+2022-09-14 15:54:32,576 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:54:32,577 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:32,577 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:33,453 INFO     Received data: '0,0,2.13,1.00,36,183\n0,0,2.14,1.00,36,176'
+2022-09-14 15:54:33,578 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:33,579 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:33,579 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:34,454 INFO     Received data: '0,0,2.13,1.00,36,91\n0,733,2.16,1.00,36,90'
+2022-09-14 15:54:34,580 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:34,580 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:34,580 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:35,455 INFO     Received data: '0,733,2.16,1.00,36,175\n0,93,2.14,1.00,36,177'
+2022-09-14 15:54:35,581 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:54:35,581 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:35,581 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:36,456 INFO     Received data: '0,0,2.16,1.00,36,92\n0,0,2.13,1.00,36,89\n1'
+2022-09-14 15:54:36,583 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:54:36,583 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:36,583 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:37,458 INFO     Received data: '0,0,2.13,1.00,36,182\n0,0,2.13,1.00,36,186'
+2022-09-14 15:54:37,590 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:37,590 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:37,590 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:38,459 INFO     Received data: '0,0,2.13,1.00,36,91\n0,733,2.16,1.00,36,90'
+2022-09-14 15:54:38,585 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:38,585 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:38,585 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:39,460 INFO     Received data: '0,733,2.16,1.00,36,174\n0,93,2.14,1.00,36,183'
+2022-09-14 15:54:39,585 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:54:39,585 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:39,585 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:40,461 INFO     Received data: '0,0,2.14,1.00,36,91\n0,0,2.13,1.00,36,89\n\x01'
+2022-09-14 15:54:40,589 INFO     Action is [296] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:54:40,589 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:40,589 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:41,462 INFO     Received data: '0,0,2.13,1.00,36,176\n0,0,2.15,1.00,36,187'
+2022-09-14 15:54:41,593 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:41,594 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:41,594 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:42,464 INFO     Received data: '0,0,2.13,1.00,36,91\n0,733,2.16,1.00,36,90'
+2022-09-14 15:54:42,591 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:42,591 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:42,591 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:43,465 INFO     Received data: '0,93,2.15,1.00,36,194\n0,0,2.14,1.00,36,174'
+2022-09-14 15:54:43,592 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:54:43,593 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:43,593 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:44,466 INFO     Using previous socket data
+2022-09-14 15:54:44,592 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:54:44,592 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:44,593 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:45,467 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:54:45,595 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:45,595 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:45,596 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:46,469 INFO     Received data: '0,0,2.16,1.00,36,174\n0,733,2.14,1.00,36,188'
+2022-09-14 15:54:46,596 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:54:46,596 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:46,596 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:47,470 INFO     Using previous socket data
+2022-09-14 15:54:47,594 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:54:47,594 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:47,594 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:48,471 INFO     Using previous socket data
+2022-09-14 15:54:48,599 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:54:48,599 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:48,599 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:49,472 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,89\nq'
+2022-09-14 15:54:49,601 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:49,601 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:49,601 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:50,474 INFO     Received data: '0,733,2.15,1.00,36,182\n0,733,2.14,1.00,36,195'
+2022-09-14 15:54:50,601 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:54:50,602 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:50,602 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:51,475 INFO     Using previous socket data
+2022-09-14 15:54:51,601 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:54:51,601 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:51,601 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:52,476 INFO     Using previous socket data
+2022-09-14 15:54:52,604 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:54:52,604 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:52,604 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:53,478 INFO     Received data: '0,0,2.14,1.00,36,89\n0,0,2.16,1.00,36,90\na\x10'
+2022-09-14 15:54:53,611 INFO     Action is [296] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:54:53,611 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:53,611 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:54,479 INFO     Received data: '0,93,2.15,1.00,36,185\n0,93,2.14,1.00,36,184'
+2022-09-14 15:54:54,605 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:54:54,605 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:54,605 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:55,480 INFO     Using previous socket data
+2022-09-14 15:54:55,605 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:54:55,605 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:55,605 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:56,481 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:54:56,610 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:54:56,610 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:54:56,610 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:54:57,483 INFO     Received data: '0,0,2.16,1.00,36,175\n0,93,2.14,1.00,36,175'
+2022-09-14 15:54:57,617 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:54:57,617 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:57,617 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:58,484 INFO     Using previous socket data
+2022-09-14 15:54:58,611 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:54:58,612 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:58,612 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:54:59,485 INFO     Using previous socket data
+2022-09-14 15:54:59,616 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:54:59,616 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:54:59,616 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:00,488 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:55:00,616 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:00,616 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:00,616 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:01,488 INFO     Received data: '0,733,2.16,1.00,36,174\n0,93,2.14,1.00,36,176'
+2022-09-14 15:55:01,618 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:01,618 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:01,618 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:02,489 INFO     Using previous socket data
+2022-09-14 15:55:02,616 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:02,616 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:02,616 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:03,491 INFO     Using previous socket data
+2022-09-14 15:55:03,617 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:03,617 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:03,617 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:04,492 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\nQ\x10'
+2022-09-14 15:55:04,619 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:04,620 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:04,620 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:05,493 INFO     Received data: '0,93,2.16,1.00,36,175\n0,93,2.14,1.00,36,176'
+2022-09-14 15:55:05,621 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:05,621 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:05,621 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:06,494 INFO     Using previous socket data
+2022-09-14 15:55:06,622 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:06,622 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:06,622 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:07,496 INFO     Using previous socket data
+2022-09-14 15:55:07,627 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:07,627 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:07,628 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:08,497 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\nA\x13'
+2022-09-14 15:55:08,625 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:08,625 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:08,625 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:09,498 INFO     Received data: '0,93,2.15,1.00,36,185\n0,0,2.14,1.00,36,186'
+2022-09-14 15:55:09,630 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:09,630 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:09,630 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:10,500 INFO     Using previous socket data
+2022-09-14 15:55:10,625 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:10,626 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:10,626 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:11,501 INFO     Received data: '0,0,2.14,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:55:11,629 INFO     Action is [296] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:55:11,629 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:11,630 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:12,502 INFO     Received data: '0,733,2.15,1.00,36,181\n0,93,2.13,1.00,36,185'
+2022-09-14 15:55:12,630 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:12,630 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:12,630 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:13,504 INFO     Using previous socket data
+2022-09-14 15:55:13,633 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:13,634 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:13,634 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:14,505 INFO     Using previous socket data
+2022-09-14 15:55:14,631 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:14,631 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:14,632 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:15,507 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\nQ\x10'
+2022-09-14 15:55:15,634 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:15,634 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:15,634 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:16,508 INFO     Received data: '0,273,2.15,1.00,36,181\n0,93,2.14,1.00,36,180'
+2022-09-14 15:55:16,634 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:16,634 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:16,635 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:17,509 INFO     Using previous socket data
+2022-09-14 15:55:17,636 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:17,636 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:17,636 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:18,511 INFO     Using previous socket data
+2022-09-14 15:55:18,635 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:18,635 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:18,635 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:19,512 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\nA\x13'
+2022-09-14 15:55:19,638 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:19,638 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:19,638 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:20,513 INFO     Received data: '0,221,2.15,1.00,36,187\n0,0,2.14,1.00,36,190'
+2022-09-14 15:55:20,641 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:20,641 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:20,641 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:21,515 INFO     Using previous socket data
+2022-09-14 15:55:21,642 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:21,643 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:21,643 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:22,516 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:55:22,643 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:22,643 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:22,643 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:23,517 INFO     Received data: '0,733,2.16,1.00,36,175\n0,93,2.14,1.00,36,183'
+2022-09-14 15:55:23,644 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:23,645 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:23,645 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:24,519 INFO     Using previous socket data
+2022-09-14 15:55:24,883 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:24,884 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:24,884 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:25,520 INFO     Using previous socket data
+2022-09-14 15:55:25,647 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:25,647 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:25,647 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:26,522 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:55:26,649 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:26,650 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:26,650 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:27,523 INFO     Received data: '0,733,2.16,1.00,36,174\n0,93,2.15,1.00,36,177'
+2022-09-14 15:55:27,654 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:27,654 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:27,654 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:28,525 INFO     Using previous socket data
+2022-09-14 15:55:28,659 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:28,659 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:28,659 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:29,526 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\nq\x1a'
+2022-09-14 15:55:29,653 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:29,654 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:29,654 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:30,528 INFO     Received data: '0,0,2.14,1.00,36,175\n0,733,2.16,1.00,36,178'
+2022-09-14 15:55:30,655 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:55:30,655 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:30,655 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:31,529 INFO     Using previous socket data
+2022-09-14 15:55:31,656 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:55:31,656 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:31,657 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:32,530 INFO     Using previous socket data
+2022-09-14 15:55:32,655 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:55:32,655 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:32,655 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:33,532 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:55:33,659 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:33,659 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:33,659 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:34,533 INFO     Received data: '0,0,2.16,1.00,36,174\n0,733,2.14,1.00,36,179'
+2022-09-14 15:55:34,659 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:34,659 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:34,659 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:35,535 INFO     Using previous socket data
+2022-09-14 15:55:35,662 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:35,662 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:35,663 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:36,536 INFO     Using previous socket data
+2022-09-14 15:55:36,664 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:36,665 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:36,665 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:37,538 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\nA\x10'
+2022-09-14 15:55:37,663 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:37,663 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:37,663 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:38,539 INFO     Received data: '0,733,2.16,1.00,36,175\n0,733,2.14,1.00,36,177'
+2022-09-14 15:55:38,668 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:38,669 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:38,669 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:39,540 INFO     Using previous socket data
+2022-09-14 15:55:39,667 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:39,667 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:39,667 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:40,542 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\nq\x1a'
+2022-09-14 15:55:40,667 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:40,667 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:40,668 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:41,543 INFO     Received data: '0,0,2.13,1.00,36,179\n0,93,2.15,1.00,36,186'
+2022-09-14 15:55:41,670 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:41,670 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:41,670 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:42,545 INFO     Using previous socket data
+2022-09-14 15:55:42,671 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:42,671 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:42,671 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:43,546 INFO     Using previous socket data
+2022-09-14 15:55:43,674 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:43,674 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:43,674 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:44,548 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\na'
+2022-09-14 15:55:44,676 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:44,676 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:44,676 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:45,549 INFO     Received data: '0,0,2.16,1.00,36,175\n0,93,2.13,1.00,36,186'
+2022-09-14 15:55:45,676 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:45,676 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:45,676 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:46,551 INFO     Using previous socket data
+2022-09-14 15:55:46,678 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:46,679 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:46,679 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:47,552 INFO     Using previous socket data
+2022-09-14 15:55:47,678 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:55:47,678 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:47,678 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:48,554 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:55:48,677 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:48,678 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:48,678 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:49,555 INFO     Received data: '0,733,2.15,1.00,36,183\n0,21,2.14,1.00,36,176'
+2022-09-14 15:55:49,681 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:49,682 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:49,682 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:50,557 INFO     Using previous socket data
+2022-09-14 15:55:50,692 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:50,692 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:50,692 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:51,558 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nq\x1a'
+2022-09-14 15:55:51,702 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:51,702 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:51,702 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:52,560 INFO     Received data: '0,93,2.15,1.00,36,187\n0,93,2.14,1.00,36,176'
+2022-09-14 15:55:52,689 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:52,689 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:52,689 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:53,561 INFO     Using previous socket data
+2022-09-14 15:55:53,688 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:53,689 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:53,689 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:54,563 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:55:54,689 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:54,689 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:54,689 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:55,564 INFO     Received data: '0,0,2.15,1.00,36,186\n0,221,2.14,1.00,36,187'
+2022-09-14 15:55:55,691 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:55,691 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:55,692 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:56,566 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\n\x01\x16'
+2022-09-14 15:55:56,691 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:56,691 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:56,691 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:57,568 INFO     Received data: '0,0,2.14,1.00,36,177\n0,0,2.14,1.00,36,175'
+2022-09-14 15:55:57,694 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:55:57,694 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:57,694 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:55:58,569 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\nq\x17'
+2022-09-14 15:55:58,701 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:55:58,701 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:55:58,701 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:55:59,571 INFO     Received data: '0,733,2.15,1.00,36,176\n0,93,2.14,1.00,36,176'
+2022-09-14 15:55:59,697 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:55:59,697 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:55:59,697 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:00,572 INFO     Using previous socket data
+2022-09-14 15:56:00,700 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:56:00,700 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:00,701 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:01,574 INFO     Using previous socket data
+2022-09-14 15:56:01,701 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:56:01,701 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:01,701 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:02,576 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\na\x1a'
+2022-09-14 15:56:02,701 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:02,702 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:02,702 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:03,577 INFO     Received data: '0,93,2.16,1.00,36,181\n0,0,2.14,1.00,36,185'
+2022-09-14 15:56:03,701 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:56:03,701 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:03,701 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:04,579 INFO     Using previous socket data
+2022-09-14 15:56:04,706 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:56:04,706 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:04,706 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:05,580 INFO     Using previous socket data
+2022-09-14 15:56:05,706 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:56:05,706 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:05,706 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:06,582 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\nQ'
+2022-09-14 15:56:06,708 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:56:06,709 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:06,709 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:07,584 INFO     Received data: '0,93,2.14,1.00,36,178\n0,0,2.14,1.00,36,177'
+2022-09-14 15:56:07,714 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:07,715 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:07,715 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:08,585 INFO     Using previous socket data
+2022-09-14 15:56:08,718 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:08,719 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:08,719 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:09,586 INFO     Using previous socket data
+2022-09-14 15:56:09,712 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:09,712 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:09,713 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:10,588 INFO     Received data: '0,733,2.16,1.00,36,90\n0,0,2.13,1.00,36,89'
+2022-09-14 15:56:10,715 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:56:10,715 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:10,715 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:11,590 INFO     Received data: '0,93,2.14,1.00,36,181\n0,0,2.13,1.00,36,184'
+2022-09-14 15:56:11,714 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:11,714 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:11,714 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:12,591 INFO     Using previous socket data
+2022-09-14 15:56:12,722 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:12,723 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:12,723 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:13,593 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\na\x1a'
+2022-09-14 15:56:13,719 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:13,719 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:13,720 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:14,594 INFO     Received data: '0,733,2.15,1.00,36,186\n0,0,2.14,1.00,36,185'
+2022-09-14 15:56:14,721 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:56:14,721 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:14,721 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:15,596 INFO     Using previous socket data
+2022-09-14 15:56:15,721 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:56:15,722 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:15,722 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:16,597 INFO     Using previous socket data
+2022-09-14 15:56:16,725 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:56:16,726 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:16,726 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:17,599 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\nQ'
+2022-09-14 15:56:17,725 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:56:17,725 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:17,725 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:18,601 INFO     Received data: '0,733,2.16,1.00,36,178\n0,0,2.13,1.00,36,202'
+2022-09-14 15:56:18,726 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:56:18,726 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:18,726 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:19,602 INFO     Using previous socket data
+2022-09-14 15:56:19,728 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:56:19,729 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:19,729 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:20,604 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:56:20,734 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:20,734 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:20,735 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:21,605 INFO     Received data: '0,733,2.16,1.00,36,178\n0,0,0.50,1.00,36,48'
+2022-09-14 15:56:21,733 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:56:21,733 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:21,733 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:22,607 INFO     Received data: '0,733,2.14,1.00,36,186\n0,0,2.14,1.00,36,177'
+2022-09-14 15:56:22,734 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:22,734 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:22,734 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:23,609 INFO     Using previous socket data
+2022-09-14 15:56:23,975 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:23,975 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:23,975 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:24,610 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:56:24,736 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:24,737 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:24,737 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:25,612 INFO     Received data: '0,93,2.15,1.00,36,195\n0,0,2.14,1.00,36,184'
+2022-09-14 15:56:25,736 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:56:25,736 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:25,736 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:26,614 INFO     Received data: '0,733,2.13,1.00,36,89\n0,0,2.13,1.00,36,89'
+2022-09-14 15:56:26,747 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:26,747 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:26,747 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:27,615 INFO     Received data: '0,0,2.14,1.00,36,177\n0,0,2.15,1.00,36,185'
+2022-09-14 15:56:27,748 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:27,748 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:27,748 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:28,617 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:56:28,744 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:28,744 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:28,745 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:29,619 INFO     Received data: '0,93,2.16,1.00,36,178\n0,0,2.14,1.00,36,183'
+2022-09-14 15:56:29,745 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:56:29,745 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:29,745 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:30,620 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nq'
+2022-09-14 15:56:30,751 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:30,752 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:30,752 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:31,622 INFO     Received data: '0,0,2.13,1.00,36,172\n0,93,2.15,1.00,36,186'
+2022-09-14 15:56:31,750 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:31,750 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:31,750 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:32,623 INFO     Received data: '0,0,2.16,1.00,36,90\n0,733,2.13,1.00,36,89'
+2022-09-14 15:56:32,750 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:56:32,750 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:32,751 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:33,625 INFO     Received data: '0,93,2.13,1.00,36,187\n0,0,2.13,1.00,36,183'
+2022-09-14 15:56:33,751 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:33,751 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:33,751 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:34,627 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nA\x11'
+2022-09-14 15:56:34,753 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:34,753 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:34,753 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:35,628 INFO     Received data: '0,0,2.13,1.00,36,177\n0,93,2.15,1.00,36,177'
+2022-09-14 15:56:35,755 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:35,755 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:35,755 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:36,630 INFO     Using previous socket data
+2022-09-14 15:56:36,758 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:36,758 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:36,758 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:37,632 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nq\x1b'
+2022-09-14 15:56:37,758 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:37,758 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:37,758 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:38,633 INFO     Received data: '0,93,2.14,1.00,36,180\n0,0,2.16,1.00,36,177'
+2022-09-14 15:56:38,761 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:38,761 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:38,762 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:39,635 INFO     Using previous socket data
+2022-09-14 15:56:39,776 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:39,776 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:39,777 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:40,637 INFO     Using previous socket data
+2022-09-14 15:56:40,766 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:40,766 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:40,766 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:41,639 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\na'
+2022-09-14 15:56:41,762 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:41,763 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:41,763 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:42,640 INFO     Received data: '0,93,2.13,1.00,36,182\n0,733,2.16,1.00,36,176'
+2022-09-14 15:56:42,773 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:42,774 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:42,774 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:43,642 INFO     Using previous socket data
+2022-09-14 15:56:43,769 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:43,769 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:43,769 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:44,644 INFO     Using previous socket data
+2022-09-14 15:56:44,772 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:44,772 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:44,773 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:45,646 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,0.40,1.00,36,20\nQ\x11'
+2022-09-14 15:56:45,772 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:45,772 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:45,772 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:46,647 INFO     Received data: '0,93,2.13,1.00,36,187\n0,93,2.15,1.00,36,179'
+2022-09-14 15:56:46,777 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:46,777 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:46,777 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:47,649 INFO     Received data: '0,733,2.16,1.00,36,90\n0,0,2.13,1.00,36,89'
+2022-09-14 15:56:47,775 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:56:47,776 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:47,776 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:48,651 INFO     Received data: '0,221,2.14,1.00,36,185\n0,93,2.13,1.00,36,195'
+2022-09-14 15:56:48,775 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:48,776 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:48,776 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:49,652 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\n!\x14'
+2022-09-14 15:56:49,779 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:49,779 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:49,779 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:50,654 INFO     Received data: '0,0,2.14,1.00,36,176\n0,93,2.15,1.00,36,187'
+2022-09-14 15:56:50,780 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:50,781 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:50,781 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:51,656 INFO     Using previous socket data
+2022-09-14 15:56:51,782 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:51,783 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:51,783 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:52,658 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nQ'
+2022-09-14 15:56:52,785 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:52,785 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:52,786 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:53,659 INFO     Received data: '0,0,2.14,1.00,36,175\n0,0,2.15,1.00,36,185'
+2022-09-14 15:56:53,786 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:53,786 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:53,786 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:54,661 INFO     Using previous socket data
+2022-09-14 15:56:54,789 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:54,789 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:54,789 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:55,663 INFO     Using previous socket data
+2022-09-14 15:56:55,788 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:56:55,788 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:55,789 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:56,665 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nA\x11'
+2022-09-14 15:56:56,789 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:56,790 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:56,790 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:57,667 INFO     Received data: '0,0,2.13,1.00,36,181\n0,0,0.49,1.00,36,52'
+2022-09-14 15:56:57,796 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:57,796 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:57,797 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:56:58,668 INFO     Received data: '0,733,2.16,1.00,36,178\n0,93,2.13,1.00,36,183'
+2022-09-14 15:56:58,794 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:56:58,795 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:56:58,795 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:56:59,670 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\na\x1b'
+2022-09-14 15:56:59,796 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:56:59,796 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:56:59,796 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:00,672 INFO     Received data: '0,0,2.13,1.00,36,173\n0,0,2.13,1.00,36,184'
+2022-09-14 15:57:00,799 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:00,799 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:00,799 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:01,673 INFO     Using previous socket data
+2022-09-14 15:57:01,800 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:01,800 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:01,800 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:02,675 INFO     Received data: '0,733,2.16,1.00,36,90\n0,0,2.13,1.00,36,89'
+2022-09-14 15:57:02,811 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:02,811 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:02,811 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:03,677 INFO     Received data: '0,93,2.14,1.00,36,176\n0,0,2.13,1.00,36,184'
+2022-09-14 15:57:03,818 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:57:03,818 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:03,818 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:04,678 INFO     Using previous socket data
+2022-09-14 15:57:04,803 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:57:04,803 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:04,803 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:05,680 INFO     Using previous socket data
+2022-09-14 15:57:05,807 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:57:05,807 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:05,807 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:06,682 INFO     Received data: '0,733,2.16,1.00,36,90\n0,0,2.13,1.00,36,89'
+2022-09-14 15:57:06,812 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:06,812 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:06,813 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:07,684 INFO     Received data: '0,0,2.13,1.00,36,183\n0,0,2.13,1.00,36,185'
+2022-09-14 15:57:07,816 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:07,816 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:07,816 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:08,686 INFO     Received data: '0,0,2.13,1.00,36,91\n0,733,2.16,1.00,36,90'
+2022-09-14 15:57:08,813 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:08,813 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:08,813 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:09,688 INFO     Received data: '0,0,2.15,1.00,36,186\n0,0,0.40,1.00,36,38'
+2022-09-14 15:57:09,815 INFO     Action is [296] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:57:09,815 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:09,815 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:10,690 INFO     Received data: '0,733,2.14,1.00,36,189\n0,53,2.13,1.00,36,178'
+2022-09-14 15:57:10,816 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:57:10,816 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:10,816 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:11,691 INFO     Using previous socket data
+2022-09-14 15:57:11,818 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:57:11,818 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:11,818 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:12,693 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:57:12,818 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:12,819 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:12,819 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:13,695 INFO     Received data: '0,91,2.15,1.00,36,175\n0,105,2.13,1.00,36,180'
+2022-09-14 15:57:13,822 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:57:13,822 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:13,822 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:14,697 INFO     Received data: '0,733,2.14,1.00,36,91\n0,0,2.13,1.00,36,89'
+2022-09-14 15:57:14,824 INFO     Action is [296] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:57:14,825 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:14,825 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:15,699 INFO     Received data: '0,0,2.13,1.00,36,174\n0,0,2.15,1.00,36,184'
+2022-09-14 15:57:15,825 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:15,825 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:15,825 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:16,700 INFO     Received data: '0,0,2.16,1.00,36,92\n0,733,2.13,1.00,36,89'
+2022-09-14 15:57:16,842 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:16,843 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:16,843 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:17,702 INFO     Received data: '0,91,2.16,1.00,36,176\n0,0,2.14,1.00,36,176'
+2022-09-14 15:57:17,829 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:17,829 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:17,829 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:18,704 INFO     Using previous socket data
+2022-09-14 15:57:18,829 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:18,830 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:18,830 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:19,706 INFO     Using previous socket data
+2022-09-14 15:57:19,830 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:19,830 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:19,830 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:20,708 INFO     Received data: '0,0,2.16,1.00,36,90\n0,733,2.13,1.00,36,89'
+2022-09-14 15:57:20,833 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:20,833 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:20,833 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:21,709 INFO     Received data: '0,219,2.13,1.00,36,184\n0,0,0.45,1.00,36,55'
+2022-09-14 15:57:22,088 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:22,088 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:22,088 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:22,711 INFO     Received data: '0,93,2.14,1.00,36,183\n0,0,2.13,1.00,36,173'
+2022-09-14 15:57:22,830 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:57:22,831 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:22,831 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:23,713 INFO     Received data: '0,0,2.13,1.00,36,91\n0,0,2.16,1.00,36,90\nQ'
+2022-09-14 15:57:23,832 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:23,832 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:23,832 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:24,715 INFO     Received data: '0,91,2.15,1.00,36,183\n0,93,2.14,1.00,36,179'
+2022-09-14 15:57:24,835 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:57:24,835 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:24,835 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:25,717 INFO     Using previous socket data
+2022-09-14 15:57:25,847 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:57:25,847 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:25,847 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:26,718 INFO     Using previous socket data
+2022-09-14 15:57:26,842 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:57:26,842 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:26,842 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:27,720 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\nA'
+2022-09-14 15:57:27,852 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:27,852 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:27,852 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:28,722 INFO     Received data: '0,91,2.15,1.00,36,186\n0,93,2.14,1.00,36,174'
+2022-09-14 15:57:28,849 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:57:28,850 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:28,850 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:29,724 INFO     Using previous socket data
+2022-09-14 15:57:29,850 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:57:29,850 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:29,850 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:30,726 INFO     Received data: '0,0,2.14,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:57:30,853 INFO     Action is [296] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:57:30,853 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:30,853 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:31,728 INFO     Received data: '0,0,2.17,1.00,36,185\n0,21,2.14,1.00,36,187'
+2022-09-14 15:57:31,854 INFO     Action is [277] Reward_avg is: 0.15633555 reward for slice [2.17 0.   0.  ]
+2022-09-14 15:57:31,854 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:31,855 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:32,730 INFO     Using previous socket data
+2022-09-14 15:57:32,856 INFO     Action is [277] Reward_avg is: 0.15633555 reward for slice [2.17 0.   0.  ]
+2022-09-14 15:57:32,856 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:32,856 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:33,731 INFO     Using previous socket data
+2022-09-14 15:57:33,859 INFO     Action is [277] Reward_avg is: 0.15633555 reward for slice [2.17 0.   0.  ]
+2022-09-14 15:57:33,860 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:33,860 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:34,733 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\nQ'
+2022-09-14 15:57:34,857 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:34,858 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:34,858 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:35,735 INFO     Received data: '0,733,2.16,1.00,36,174\n0,93,2.14,1.00,36,176'
+2022-09-14 15:57:35,861 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:35,861 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:35,861 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:36,737 INFO     Using previous socket data
+2022-09-14 15:57:36,864 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:36,864 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:36,864 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:37,739 INFO     Using previous socket data
+2022-09-14 15:57:37,865 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:37,865 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:37,865 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:38,741 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\nA'
+2022-09-14 15:57:38,876 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:38,876 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:38,877 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:39,742 INFO     Received data: '0,91,2.16,1.00,36,177\n0,0,2.14,1.00,36,177'
+2022-09-14 15:57:39,869 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:39,869 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:39,869 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:40,744 INFO     Using previous socket data
+2022-09-14 15:57:40,871 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:40,872 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:40,872 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:41,746 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\nq\x19'
+2022-09-14 15:57:41,874 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:41,875 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:41,875 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:42,748 INFO     Received data: '0,105,2.16,1.00,36,173\n0,91,2.13,1.00,36,181'
+2022-09-14 15:57:42,875 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:42,875 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:42,875 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:43,750 INFO     Using previous socket data
+2022-09-14 15:57:43,877 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:43,877 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:43,877 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:44,752 INFO     Using previous socket data
+2022-09-14 15:57:44,878 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:44,878 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:44,878 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:45,754 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\na'
+2022-09-14 15:57:45,882 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:45,882 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:45,882 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:46,756 INFO     Received data: '0,733,2.16,1.00,36,176\n0,93,2.13,1.00,36,185'
+2022-09-14 15:57:46,881 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:46,882 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:46,882 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:47,758 INFO     Using previous socket data
+2022-09-14 15:57:47,884 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:47,884 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:47,884 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:48,759 INFO     Using previous socket data
+2022-09-14 15:57:48,886 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:48,886 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:48,886 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:49,761 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\nQ'
+2022-09-14 15:57:49,887 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:49,887 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:49,887 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:50,763 INFO     Received data: '0,733,2.16,1.00,36,175\n0,93,2.14,1.00,36,177'
+2022-09-14 15:57:50,889 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:50,890 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:50,890 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:51,765 INFO     Using previous socket data
+2022-09-14 15:57:51,908 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:51,908 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:51,908 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:52,767 INFO     Using previous socket data
+2022-09-14 15:57:52,894 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:52,894 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:52,894 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:53,769 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\nA\x12'
+2022-09-14 15:57:53,895 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:57:53,895 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:53,895 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:54,771 INFO     Received data: '0,733,2.13,1.00,36,182\n0,0,2.14,1.00,36,176'
+2022-09-14 15:57:54,898 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:54,898 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:54,898 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:55,773 INFO     Using previous socket data
+2022-09-14 15:57:55,899 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:55,899 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:55,899 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:56,775 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:57:56,902 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:57:56,902 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:56,902 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:57,777 INFO     Received data: '0,0,2.15,1.00,36,175\n0,0,0.52,1.00,36,56'
+2022-09-14 15:57:57,911 INFO     Action is [296] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:57:57,911 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:57:57,911 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:57:58,779 INFO     Received data: '0,733,2.14,1.00,36,185\n0,0,2.14,1.00,36,177'
+2022-09-14 15:57:58,910 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:57:58,910 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:58,910 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:57:59,781 INFO     Using previous socket data
+2022-09-14 15:57:59,908 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:57:59,908 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:57:59,908 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:00,783 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:58:00,914 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:00,914 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:00,914 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:01,785 INFO     Received data: '0,837,2.14,1.00,36,174\n0,0,2.16,1.00,36,200'
+2022-09-14 15:58:01,912 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:58:01,912 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:01,912 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:02,786 INFO     Received data: '0,733,2.14,1.00,36,91\n0,0,2.13,1.00,36,89'
+2022-09-14 15:58:02,913 INFO     Action is [296] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:58:02,913 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:02,913 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:03,788 INFO     Received data: '0,93,2.14,1.00,36,175\n0,0,2.14,1.00,36,176'
+2022-09-14 15:58:03,914 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:58:03,914 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:03,914 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:04,790 INFO     Received data: '0,0,2.16,1.00,36,92\n0,733,2.13,1.00,36,89'
+2022-09-14 15:58:04,916 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:04,917 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:04,917 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:05,792 INFO     Received data: '0,91,2.16,1.00,36,176\n0,93,2.14,1.00,36,175'
+2022-09-14 15:58:05,919 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:05,919 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:05,919 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:06,794 INFO     Received data: '0,0,2.14,1.00,36,92\n0,0,2.13,1.00,36,89\na\x13'
+2022-09-14 15:58:06,927 INFO     Action is [296] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:58:06,927 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:06,927 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:07,797 INFO     Received data: '0,0,2.13,1.00,36,173\n0,0,2.13,1.00,36,184'
+2022-09-14 15:58:07,927 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:07,927 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:07,928 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:08,798 INFO     Received data: '0,0,2.16,1.00,36,92\n0,733,2.13,1.00,36,89'
+2022-09-14 15:58:08,927 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:08,928 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:08,928 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:09,800 INFO     Received data: '0,91,2.14,1.00,36,176\n0,0,2.13,1.00,36,186'
+2022-09-14 15:58:09,928 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:58:09,929 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:09,929 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:10,802 INFO     Received data: '0,0,2.16,1.00,36,93\n0,0,2.13,1.00,36,89\n1\x16'
+2022-09-14 15:58:10,930 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:10,930 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:10,930 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:11,804 INFO     Received data: '0,0,2.14,1.00,36,176\n0,91,2.16,1.00,36,175'
+2022-09-14 15:58:11,931 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:58:11,932 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:11,932 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:12,806 INFO     Received data: '0,733,2.13,1.00,36,91\n0,0,2.16,1.00,36,90'
+2022-09-14 15:58:12,931 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:12,931 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:12,931 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:13,808 INFO     Received data: '0,91,2.14,1.00,36,174\n0,0,2.13,1.00,36,185'
+2022-09-14 15:58:13,937 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:58:13,937 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:13,937 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:14,811 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.16,1.00,36,90\n\x01\x19'
+2022-09-14 15:58:14,937 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:14,937 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:14,938 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:15,812 INFO     Received data: '0,91,2.16,1.00,36,175\n0,0,2.14,1.00,36,177'
+2022-09-14 15:58:15,940 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:15,940 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:15,940 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:16,814 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\nq\x1a'
+2022-09-14 15:58:16,941 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:16,942 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:16,942 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:17,816 INFO     Received data: '0,0,2.13,1.00,36,191\n0,91,2.15,1.00,36,186'
+2022-09-14 15:58:17,942 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:17,942 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:17,942 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:18,818 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:58:19,184 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:19,184 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:19,184 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:19,820 INFO     Received data: '0,91,2.13,1.00,36,185\n0,0,2.13,1.00,36,175'
+2022-09-14 15:58:19,954 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:19,955 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:19,955 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:20,822 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nA'
+2022-09-14 15:58:20,947 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:20,947 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:20,947 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:21,825 INFO     Received data: '0,0,0.45,1.00,36,44\n0,19,4.72,0.75,36,260'
+2022-09-14 15:58:21,953 INFO     Action is [296] Reward_avg is: 0.032419816 reward for slice [0.45 0.   0.  ]
+2022-09-14 15:58:21,953 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:21,953 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:22,827 INFO     Received data: '0,733,2.13,1.00,36,177\n0,93,2.15,1.00,36,175'
+2022-09-14 15:58:22,953 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:22,953 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:22,953 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:23,829 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\na\x17'
+2022-09-14 15:58:23,956 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:23,956 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:23,956 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:24,831 INFO     Received data: '0,93,2.14,1.00,36,176\n0,0,2.14,1.00,36,178'
+2022-09-14 15:58:24,957 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:58:24,957 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:24,957 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:25,833 INFO     Using previous socket data
+2022-09-14 15:58:25,960 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:58:25,961 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:25,961 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:26,835 INFO     Using previous socket data
+2022-09-14 15:58:26,961 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:58:26,961 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:26,961 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:27,837 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\nQ\x1a'
+2022-09-14 15:58:27,965 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:27,965 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:27,965 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:28,839 INFO     Received data: '0,21,2.13,1.00,36,176\n0,0,2.13,1.00,36,177'
+2022-09-14 15:58:28,970 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:28,970 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:28,970 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:29,841 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:58:29,967 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:29,967 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:29,967 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:30,843 INFO     Received data: '0,0,2.12,1.00,36,178\n0,0,2.15,1.00,36,184'
+2022-09-14 15:58:30,971 INFO     Action is [277] Reward_avg is: 0.15273336 reward for slice [2.12 0.   0.  ]
+2022-09-14 15:58:30,971 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:30,971 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:31,845 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\n!'
+2022-09-14 15:58:31,972 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:31,973 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:31,973 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:32,847 INFO     Received data: '0,105,2.13,1.00,36,187\n0,0,2.14,1.00,36,191'
+2022-09-14 15:58:32,973 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:32,973 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:32,973 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:33,849 INFO     Received data: '0,733,2.13,1.00,36,89\n0,0,2.16,1.00,36,90'
+2022-09-14 15:58:33,977 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:33,977 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:33,977 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:34,851 INFO     Received data: '0,91,2.16,1.00,36,177\n0,0,2.14,1.00,36,176'
+2022-09-14 15:58:34,977 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:34,977 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:34,977 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:35,853 INFO     Using previous socket data
+2022-09-14 15:58:35,978 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:35,978 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:35,978 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:36,856 INFO     Using previous socket data
+2022-09-14 15:58:36,983 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:36,983 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:36,983 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:37,857 INFO     Received data: '0,0,0.70,1.00,36,35\n0,0,4.26,0.96,36,85\nq\x11'
+2022-09-14 15:58:37,984 INFO     Action is [296] Reward_avg is: 0.050430823 reward for slice [0.7 0.  0. ]
+2022-09-14 15:58:37,984 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:37,984 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:38,859 INFO     Received data: '0,93,2.15,1.00,36,198\n0,0,2.14,1.00,36,187'
+2022-09-14 15:58:38,986 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:58:38,986 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:38,986 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:39,862 INFO     Using previous socket data
+2022-09-14 15:58:39,987 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:58:39,988 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:39,988 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:40,864 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:58:40,994 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:40,994 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:40,994 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:41,866 INFO     Received data: '0,91,2.13,1.00,36,187\n0,0,2.15,1.00,36,187'
+2022-09-14 15:58:41,993 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:41,993 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:41,993 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:42,868 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\n\x01'
+2022-09-14 15:58:42,994 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:42,994 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:42,994 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:43,870 INFO     Received data: '0,0,2.14,1.00,36,175\n0,0,2.13,1.00,36,185'
+2022-09-14 15:58:43,994 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:58:43,994 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:43,994 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:44,872 INFO     Received data: '0,733,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:58:44,998 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:44,998 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:44,998 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:45,874 INFO     Received data: '0,91,2.16,1.00,36,186\n0,0,2.14,1.00,36,177'
+2022-09-14 15:58:46,001 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:46,001 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:46,001 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:46,876 INFO     Using previous socket data
+2022-09-14 15:58:47,004 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:47,004 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:47,004 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:47,878 INFO     Using previous socket data
+2022-09-14 15:58:48,011 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:48,011 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:48,012 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:48,881 INFO     Received data: '0,733,2.13,1.00,36,89\n0,0,2.16,1.00,36,89'
+2022-09-14 15:58:49,009 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:49,009 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:49,010 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:49,883 INFO     Received data: '0,93,2.16,1.00,36,179\n0,183,2.14,1.00,36,176'
+2022-09-14 15:58:50,010 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:50,010 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:50,010 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:50,885 INFO     Using previous socket data
+2022-09-14 15:58:51,013 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:58:51,013 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:51,013 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:51,887 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:58:52,015 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:52,015 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:52,016 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:52,889 INFO     Received data: '0,733,2.13,1.00,36,186\n0,93,2.13,1.00,36,186'
+2022-09-14 15:58:53,017 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:53,017 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:53,017 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:53,891 INFO     Using previous socket data
+2022-09-14 15:58:54,019 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:54,019 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:54,019 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:54,894 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.13,1.00,36,89'
+2022-09-14 15:58:55,021 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:55,021 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:55,021 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:55,896 INFO     Received data: '0,0,2.14,1.00,36,180\n0,733,2.16,1.00,36,176'
+2022-09-14 15:58:56,023 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:58:56,023 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:56,023 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:56,898 INFO     Received data: '0,733,2.14,1.00,36,89\n0,0,2.13,1.00,36,89'
+2022-09-14 15:58:57,026 INFO     Action is [296] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:58:57,026 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:57,026 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:57,900 INFO     Received data: '0,93,2.13,1.00,36,196\n0,0,2.14,1.00,36,175'
+2022-09-14 15:58:58,027 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:58,027 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:58:58,027 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:58:58,902 INFO     Received data: '0,0,2.13,1.00,36,88\n0,0,2.16,1.00,36,90\nQ\x18'
+2022-09-14 15:58:59,031 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:58:59,032 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:58:59,032 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:58:59,905 INFO     Received data: '0,733,2.13,1.00,36,183\n0,325,2.15,1.00,36,181'
+2022-09-14 15:59:00,033 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:00,033 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:00,033 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:00,907 INFO     Using previous socket data
+2022-09-14 15:59:01,034 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:01,034 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:01,034 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:01,909 INFO     Using previous socket data
+2022-09-14 15:59:02,037 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:02,037 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:02,037 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:02,911 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:59:03,037 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:03,037 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:03,037 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:03,913 INFO     Received data: '0,733,2.13,1.00,36,177\n0,93,2.15,1.00,36,191'
+2022-09-14 15:59:04,041 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:04,041 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:04,041 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:04,916 INFO     Using previous socket data
+2022-09-14 15:59:05,042 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:05,042 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:05,042 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:05,918 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\na\x15'
+2022-09-14 15:59:06,045 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:06,045 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:06,045 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:06,920 INFO     Received data: '0,0,2.13,1.00,36,185\n0,733,2.15,1.00,36,186'
+2022-09-14 15:59:07,045 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:07,045 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:07,045 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:07,922 INFO     Received data: '0,733,2.16,1.00,36,90\n0,0,2.13,1.00,36,89'
+2022-09-14 15:59:08,057 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:59:08,058 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:08,058 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:08,924 INFO     Received data: '0,93,2.16,1.00,36,179\n0,0,2.14,1.00,36,184'
+2022-09-14 15:59:09,054 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:59:09,054 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:09,054 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:09,927 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.13,1.00,36,89'
+2022-09-14 15:59:10,055 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:10,055 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:10,055 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:10,929 INFO     Received data: '0,733,2.13,1.00,36,175\n0,325,2.15,1.00,36,186'
+2022-09-14 15:59:11,056 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:11,056 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:11,056 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:11,931 INFO     Using previous socket data
+2022-09-14 15:59:12,059 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:12,059 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:12,059 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:12,933 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\nQ\x12'
+2022-09-14 15:59:13,061 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:13,061 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:13,061 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:13,936 INFO     Received data: '0,0,2.13,1.00,36,186\n0,733,2.16,1.00,36,176'
+2022-09-14 15:59:14,061 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:14,061 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:14,061 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:14,938 INFO     Received data: '0,733,2.13,1.00,36,89\n0,0,2.16,1.00,36,90'
+2022-09-14 15:59:15,065 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:15,065 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:15,065 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:15,940 INFO     Received data: '0,221,2.15,1.00,36,177\n0,0,2.14,1.00,36,184'
+2022-09-14 15:59:16,071 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:59:16,071 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:16,071 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:16,942 INFO     Received data: '0,0,2.13,1.00,36,89\n0,0,2.13,1.00,36,89\n!\x15'
+2022-09-14 15:59:17,071 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:17,072 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:17,072 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:17,970 INFO     Received data: '0,0,2.14,1.00,36,176\n0,733,2.15,1.00,36,187'
+2022-09-14 15:59:18,338 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:59:18,338 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:18,338 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:18,972 INFO     Received data: '0,733,2.16,1.00,36,125\n0,0,2.13,1.00,36,89'
+2022-09-14 15:59:19,100 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:59:19,100 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:19,101 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:19,974 INFO     Received data: '0,93,2.16,1.00,36,179\n0,0,2.14,1.00,36,185'
+2022-09-14 15:59:20,101 INFO     Action is [277] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:59:20,101 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:20,101 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:20,976 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.13,1.00,36,89'
+2022-09-14 15:59:21,103 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:21,103 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:21,103 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:21,979 INFO     Received data: '0,733,2.13,1.00,36,185\n0,93,2.15,1.00,36,182'
+2022-09-14 15:59:22,106 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:22,106 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:22,106 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:22,981 INFO     Received data: '0,733,2.16,1.00,36,90\n0,0,2.13,1.00,36,89'
+2022-09-14 15:59:23,109 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:59:23,110 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:23,110 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:23,983 INFO     Received data: '0,93,2.14,1.00,36,177\n0,0,2.14,1.00,36,176'
+2022-09-14 15:59:24,111 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:59:24,111 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:24,111 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:24,985 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.13,1.00,36,89'
+2022-09-14 15:59:25,108 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:25,109 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:25,109 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:25,988 INFO     Received data: '0,733,2.14,1.00,36,175\n0,93,2.15,1.00,36,183'
+2022-09-14 15:59:26,108 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:59:26,108 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:26,108 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:26,990 INFO     Received data: '0,0,2.16,1.00,36,90\n0,0,2.13,1.00,36,89\n\x11'
+2022-09-14 15:59:27,116 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:59:27,117 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:27,117 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:27,992 INFO     Received data: '0,93,2.14,1.00,36,177\n0,0,2.14,1.00,36,176'
+2022-09-14 15:59:28,113 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:59:28,113 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:28,113 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:28,995 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:59:29,117 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:29,117 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:29,117 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:29,997 INFO     Received data: '0,733,2.14,1.00,36,175\n0,93,2.16,1.00,36,177'
+2022-09-14 15:59:30,118 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:59:30,118 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:30,118 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:30,999 INFO     Using previous socket data
+2022-09-14 15:59:31,123 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:59:31,123 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:31,123 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:32,002 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.13,1.00,36,89'
+2022-09-14 15:59:32,122 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:32,122 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:32,122 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:33,004 INFO     Received data: '0,53,2.13,1.00,36,177\n0,733,2.15,1.00,36,185'
+2022-09-14 15:59:33,124 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:33,124 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:33,124 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:34,006 INFO     Received data: '0,733,2.16,1.00,36,90\n0,0,2.13,1.00,36,89'
+2022-09-14 15:59:34,127 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:59:34,127 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:34,127 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:35,008 INFO     Received data: '0,93,2.14,1.00,36,176\n0,105,2.13,1.00,36,187'
+2022-09-14 15:59:35,128 INFO     Action is [277] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:59:35,128 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:35,129 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:36,011 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.13,1.00,36,89'
+2022-09-14 15:59:36,129 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:36,129 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:36,129 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:37,013 INFO     Received data: '0,733,2.13,1.00,36,175\n0,93,2.16,1.00,36,175'
+2022-09-14 15:59:37,132 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:37,133 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:37,133 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:38,015 INFO     Using previous socket data
+2022-09-14 15:59:38,136 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:38,136 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:38,136 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:39,018 INFO     Using previous socket data
+2022-09-14 15:59:39,138 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:39,138 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:39,138 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:40,020 INFO     Received data: '0,0,2.13,1.00,36,89\n0,733,2.16,1.00,36,90'
+2022-09-14 15:59:40,141 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:40,141 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:40,141 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:41,022 INFO     Received data: '0,733,2.13,1.00,36,144\n0,93,2.16,1.00,36,176'
+2022-09-14 15:59:41,142 INFO     Action is [276] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:41,142 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 0]
+2022-09-14 15:59:41,142 INFO     Sending to DU: '0,2,0\n12,1,4'
+2022-09-14 15:59:42,025 INFO     Received data: '0,0,2.16,1.00,36,124\n0,0,2.13,1.00,36,89'
+2022-09-14 15:59:42,145 INFO     Action is [296] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:59:42,146 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:42,146 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:43,027 INFO     Received data: '0,0,2.13,1.00,36,145\n0,733,2.13,1.00,36,184'
+2022-09-14 15:59:43,147 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:43,147 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:43,147 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:44,029 INFO     Received data: '0,0,2.13,1.00,36,129\n0,733,2.16,1.00,36,90'
+2022-09-14 15:59:44,147 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:44,147 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:44,147 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:45,032 INFO     Received data: '0,733,2.16,1.00,36,144\n0,93,2.14,1.00,36,187'
+2022-09-14 15:59:45,151 INFO     Action is [276] Reward_avg is: 0.1556151 reward for slice [2.16 0.   0.  ]
+2022-09-14 15:59:45,152 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 0]
+2022-09-14 15:59:45,152 INFO     Sending to DU: '0,2,0\n12,1,4'
+2022-09-14 15:59:46,034 INFO     Received data: '0,0,2.14,1.00,36,123\n0,0,2.13,1.00,36,89'
+2022-09-14 15:59:46,154 INFO     Action is [296] Reward_avg is: 0.15417424 reward for slice [2.14 0.   0.  ]
+2022-09-14 15:59:46,155 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:46,155 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:47,037 INFO     Received data: '0,0,2.13,1.00,36,143\n0,733,2.13,1.00,36,175'
+2022-09-14 15:59:47,156 INFO     Action is [277] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:47,157 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:47,157 INFO     Sending to DU: '0,2,1\n12,1,4'
+2022-09-14 15:59:48,039 INFO     Received data: '0,733,2.13,1.00,36,121\n0,0,2.16,1.00,36,90'
+2022-09-14 15:59:48,163 INFO     Action is [296] Reward_avg is: 0.1534538 reward for slice [2.13 0.   0.  ]
+2022-09-14 15:59:48,164 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [2, 2, 2]
+2022-09-14 15:59:48,164 INFO     Sending to DU: '2,2,2\n12,1,4'
+2022-09-14 15:59:49,041 INFO     Received data: '0,93,2.15,1.00,36,144\n0,273,2.14,1.00,36,181'
+2022-09-14 15:59:49,162 INFO     Action is [277] Reward_avg is: 0.15489466 reward for slice [2.15 0.   0.  ]
+2022-09-14 15:59:49,162 INFO     Action means slice_prb [36, 3, 11] (slice_rbg [12, 1, 4]), sched [0, 2, 1]
+2022-09-14 15:59:49,162 INFO     Sending to DU: '0,2,1\n12,1,4'
