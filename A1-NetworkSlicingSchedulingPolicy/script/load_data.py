@@ -56,7 +56,7 @@ def load_agent_data(agent_data_directories, user_number):
     for dir in agent_data_directories:
         
         # Load data of a log file
-        received_data_df, prb_decision_df, sending_to_du_df = process_log_file(EXPERIMENT_DATA_DIR_ADRESS + str(dir) + EXPERIMENT_DATA_LOG_FILE_NAME)
+        received_data_df, prb_decision_df, sending_to_du_df = process_log_file(EXPERIMENT_DATA_DIR_ADRESS + f"exp{str(dir)}" + EXPERIMENT_DATA_LOG_FILE_NAME)
         
         # filter for having each a new data frame that at each time stamp the data 
         for i in range(0, len(received_data_df)):
