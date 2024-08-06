@@ -1,0 +1,625 @@
+% This file was created with tikzplotlib v0.10.1.
+\begin{tikzpicture}
+
+\definecolor{darkgray176}{RGB}{176,176,176}
+
+\begin{axis}[
+colorbar,
+colorbar style={ylabel={}},
+colormap/viridis,
+point meta max=1,
+point meta min=0,
+tick align=outside,
+tick pos=left,
+title={Slice 0},
+x grid style={darkgray176},
+xlabel={Effects},
+xmin=0, xmax=36,
+xtick style={color=black},
+xtick={0.5,1.5,2.5,3.5,4.5,5.5,6.5,7.5,8.5,9.5,10.5,11.5,12.5,13.5,14.5,15.5,16.5,17.5,18.5,19.5,20.5,21.5,22.5,23.5,24.5,25.5,26.5,27.5,28.5,29.5,30.5,31.5,32.5,33.5,34.5,35.5},
+xticklabel style={rotate=45.0,anchor=east},
+xticklabels={
+  {dec(tx_brate, Q1)},
+  {const(tx_brate, Q1)},
+  {inc(tx_brate, Q1)},
+  {dec(tx_brate, Q2)},
+  {const(tx_brate, Q2)},
+  {inc(tx_brate, Q2)},
+  {dec(tx_brate, Q3)},
+  {const(tx_brate, Q3)},
+  {inc(tx_brate, Q3)},
+  {dec(tx_brate, Q4)},
+  {const(tx_brate, Q4)},
+  {inc(tx_brate, Q4)},
+  {dec(tx_pckts, Q1)},
+  {const(tx_pckts, Q1)},
+  {inc(tx_pckts, Q1)},
+  {dec(tx_pckts, Q2)},
+  {const(tx_pckts, Q2)},
+  {inc(tx_pckts, Q2)},
+  {dec(tx_pckts, Q3)},
+  {const(tx_pckts, Q3)},
+  {inc(tx_pckts, Q3)},
+  {dec(tx_pckts, Q4)},
+  {const(tx_pckts, Q4)},
+  {inc(tx_pckts, Q4)},
+  {dec(dl_buffer, Q1)},
+  {const(dl_buffer, Q1)},
+  {inc(dl_buffer, Q1)},
+  {dec(dl_buffer, Q2)},
+  {const(dl_buffer, Q2)},
+  {inc(dl_buffer, Q2)},
+  {dec(dl_buffer, Q3)},
+  {const(dl_buffer, Q3)},
+  {inc(dl_buffer, Q3)},
+  {dec(dl_buffer, Q4)},
+  {const(dl_buffer, Q4)},
+  {inc(dl_buffer, Q4)}
+},
+y dir=reverse,
+y grid style={darkgray176},
+ylabel={Decisions},
+ymin=0, ymax=33,
+ytick style={color=black},
+ytick={0.5,1.5,2.5,3.5,4.5,5.5,6.5,7.5,8.5,9.5,10.5,11.5,12.5,13.5,14.5,15.5,16.5,17.5,18.5,19.5,20.5,21.5,22.5,23.5,24.5,25.5,26.5,27.5,28.5,29.5,30.5,31.5,32.5},
+yticklabels={
+  {const(prb, C4) - const(sched)},
+  {const(prb, C3) - const(sched)},
+  {const(prb, C3) - toWF(sched)},
+  {const(prb, C3) - toPF(sched)},
+  {const(prb, C3) - toRR(sched)},
+  {dec(prb, C3) - toWF(sched)},
+  {inc(prb, C4) - const(sched)},
+  {inc(prb, C4) - toRR(sched)},
+  {inc(prb, C4) - toPF(sched)},
+  {dec(prb, C3) - const(sched)},
+  {const(prb, C4) - toPF(sched)},
+  {dec(prb, C2) - const(sched)},
+  {dec(prb, C2) - toWF(sched)},
+  {inc(prb, C3) - const(sched)},
+  {const(prb, C4) - toWF(sched)},
+  {dec(prb, C2) - toPF(sched)},
+  {inc(prb, C4) - toWF(sched)},
+  {dec(prb, C3) - toPF(sched)},
+  {inc(prb, C3) - toRR(sched)},
+  {inc(prb, C3) - toPF(sched)},
+  {dec(prb, C3) - toRR(sched)},
+  {dec(prb, C2) - toRR(sched)},
+  {const(prb, C4) - toRR(sched)},
+  {inc(prb, C3) - toWF(sched)},
+  {const(prb, C2) - toWF(sched)},
+  {const(prb, C2) - toRR(sched)},
+  {const(prb, C2) - const(sched)},
+  {const(prb, C2) - toPF(sched)},
+  {dec(prb, C1) - toWF(sched)},
+  {dec(prb, C1) - toRR(sched)},
+  {dec(prb, C1) - const(sched)},
+  {dec(prb, C1) - toPF(sched)},
+  {inc(prb, C2) - toPF(sched)}
+}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=36, ymin=33, ymax=0] {embb-trf2_heatmaps_slice_0-000.png};
+\draw (axis cs:6.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.3%};
+\draw (axis cs:7.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{5.7%};
+\draw (axis cs:10.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{17.9%};
+\draw (axis cs:11.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.3%};
+\draw (axis cs:18.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{2.8%};
+\draw (axis cs:19.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{5.1%};
+\draw (axis cs:20.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:21.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{2.0%};
+\draw (axis cs:22.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{9.4%};
+\draw (axis cs:23.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{4.7%};
+\draw (axis cs:24.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{4.0%};
+\draw (axis cs:25.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{5.7%};
+\draw (axis cs:27.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.4%};
+\draw (axis cs:30.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.9%};
+\draw (axis cs:31.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.4%};
+\draw (axis cs:32.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.9%};
+\draw (axis cs:33.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.9%};
+\draw (axis cs:34.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.2%};
+\draw (axis cs:35.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{7.7%};
+\draw (axis cs:10.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.9%};
+\draw (axis cs:18.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:19.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:22.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.5%};
+\draw (axis cs:23.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:24.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:25.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:33.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:35.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.3%};
+\draw (axis cs:10.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.7%};
+\draw (axis cs:18.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:21.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.3%};
+\draw (axis cs:22.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:24.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:33.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:34.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:35.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:10.5,3.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.6%};
+\draw (axis cs:23.5,3.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.6%};
+\draw (axis cs:33.5,3.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:35.5,3.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.4%};
+\draw (axis cs:10.5,4.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.6%};
+\draw (axis cs:18.5,4.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:21.5,4.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:23.5,4.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:24.5,4.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:34.5,4.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:35.5,4.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:10.5,5.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.5%};
+\draw (axis cs:19.5,5.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:21.5,5.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:22.5,5.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:24.5,5.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:25.5,5.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:10.5,6.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.5%};
+\draw (axis cs:19.5,6.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:22.5,6.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:25.5,6.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:33.5,6.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:35.5,6.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:10.5,7.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.5%};
+\draw (axis cs:18.5,7.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:19.5,7.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:21.5,7.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:24.5,7.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:33.5,7.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:10.5,8.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.4%};
+\draw (axis cs:23.5,8.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.5%};
+\draw (axis cs:35.5,8.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:10.5,9.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.4%};
+\draw (axis cs:22.5,9.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.3%};
+\draw (axis cs:30.5,9.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:34.5,9.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:35.5,9.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:10.5,10.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.3%};
+\draw (axis cs:23.5,10.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.3%};
+\draw (axis cs:35.5,10.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:10.5,11.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.3%};
+\draw (axis cs:23.5,11.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:35.5,11.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:10.5,12.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.3%};
+\draw (axis cs:21.5,12.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:23.5,12.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:35.5,12.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:10.5,13.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.3%};
+\draw (axis cs:22.5,13.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:10.5,14.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:18.5,14.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:10.5,15.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:23.5,15.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.3%};
+\draw (axis cs:35.5,15.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:10.5,16.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:18.5,16.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:10.5,17.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:23.5,17.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:35.5,17.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:10.5,18.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:21.5,18.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:10.5,19.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:23.5,19.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:10.5,20.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.2%};
+\draw (axis cs:10.5,21.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:21.5,21.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\draw (axis cs:10.5,22.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{0.1%};
+\end{axis}
+
+\draw ({$(current bounding box.south west)!0.5!(current bounding box.south east)$}|-{$(current bounding box.south west)!0.98!(current bounding box.north west)$}) node[
+  scale=0.8,
+  anchor=north,
+  text=black,
+  rotate=0.0
+]{Effect Probabilities Heatmap for Agent embb-trf2 - Slice 0};
+\end{tikzpicture}

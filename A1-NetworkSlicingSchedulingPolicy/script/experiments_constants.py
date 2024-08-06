@@ -119,7 +119,7 @@ AGENT_WITH_REWARD_FOLDER = {
 }
 
 # # Action steering experimetns with their mode
-# EXP_BASELINE = {"embb-trf1": 27,"embb-trf2": 29,"urllc-trf1": 28,"urllc-trf2": 30}
+EXP_BASELINE = {"embb-trf1": 27,"embb-trf2": 29,"urllc-trf1": 28,"urllc-trf2": 30}
 # EXP_BASELINE_OBS_20 = {"embb-trf1": 21,"embb-trf2": 23,"urllc-trf1": 22,"urllc-trf2": 24}
 
 # EXP_MAX_REWARD = {"embb-trf1": 31,"embb-trf2": 33,"urllc-trf1": 32,"urllc-trf2": 34}

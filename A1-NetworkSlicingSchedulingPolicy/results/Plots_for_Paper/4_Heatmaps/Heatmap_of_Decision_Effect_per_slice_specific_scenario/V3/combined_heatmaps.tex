@@ -1,0 +1,570 @@
+% This file was created with tikzplotlib v0.10.1.
+\begin{tikzpicture}
+
+\definecolor{darkgray176}{RGB}{176,176,176}
+\definecolor{darkslategray38}{RGB}{38,38,38}
+
+\begin{groupplot}[group style={group size=3 by 2}]
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+title={embb-trf1 - tx_brate},
+x grid style={darkgray176},
+xmin=0, xmax=12,
+xtick style={color=black},
+xticklabel style={rotate=45.0,anchor=east},
+y dir=reverse,
+y grid style={darkgray176},
+ylabel={Decisions},
+ymin=0, ymax=3,
+ytick style={color=black},
+ytick={0.5,1.5,2.5},
+yticklabels={
+  {const(prb, C4) - const(sched)},
+  {const(prb, C4) - toWF(sched)},
+  {const(prb, C4) - toPF(sched)}
+}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=12, ymin=3, ymax=0] {combined_heatmaps-000.png};
+\draw (axis cs:7.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{3.9%};
+\draw (axis cs:10.5,0.5) node[
+  scale=0.3,
+  text=darkslategray38,
+  rotate=0.0
+]{90.2%};
+\draw (axis cs:10.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{2.1%};
+\draw (axis cs:10.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.0%};
+
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+title={embb-trf1 - tx_pckts},
+x grid style={darkgray176},
+xmin=0, xmax=12,
+xtick style={color=black},
+xticklabel style={rotate=45.0,anchor=east},
+y dir=reverse,
+y grid style={darkgray176},
+ymin=0, ymax=3,
+ytick style={color=black},
+yticklabel style={rotate=90.0}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=12, ymin=3, ymax=0] {combined_heatmaps-001.png};
+\draw (axis cs:6.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{10.8%};
+\draw (axis cs:7.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{5.4%};
+\draw (axis cs:9.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{12.7%};
+\draw (axis cs:10.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{43.1%};
+\draw (axis cs:11.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{23.3%};
+\draw (axis cs:9.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.2%};
+\draw (axis cs:11.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.7%};
+
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+title={embb-trf1 - dl_buffer},
+x grid style={darkgray176},
+xmin=0, xmax=12,
+xtick style={color=black},
+xticklabel style={rotate=45.0,anchor=east},
+y dir=reverse,
+y grid style={darkgray176},
+ymin=0, ymax=3,
+ytick style={color=black},
+yticklabel style={rotate=90.0}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=12, ymin=3, ymax=0] {combined_heatmaps-002.png};
+\draw (axis cs:0.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{18.2%};
+\draw (axis cs:1.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{18.5%};
+\draw (axis cs:6.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{5.2%};
+\draw (axis cs:9.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{12.2%};
+\draw (axis cs:10.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{6.4%};
+\draw (axis cs:11.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{33.8%};
+\draw (axis cs:11.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.2%};
+
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+title={urllc-trf1 - tx_brate},
+x grid style={darkgray176},
+xlabel={Effects},
+xmin=0, xmax=12,
+xtick style={color=black},
+xtick={0.5,1.5,2.5,3.5,4.5,5.5,6.5,7.5,8.5,9.5,10.5,11.5},
+xticklabel style={rotate=45.0,anchor=east},
+xticklabels={
+  {dec(dl_buffer, Q1)},
+  {const(dl_buffer, Q1)},
+  {inc(dl_buffer, Q1)},
+  {dec(dl_buffer, Q2)},
+  {const(dl_buffer, Q2)},
+  {inc(dl_buffer, Q2)},
+  {dec(dl_buffer, Q3)},
+  {const(dl_buffer, Q3)},
+  {inc(dl_buffer, Q3)},
+  {dec(dl_buffer, Q4)},
+  {const(dl_buffer, Q4)},
+  {inc(dl_buffer, Q4)}
+},
+y dir=reverse,
+y grid style={darkgray176},
+ylabel={Decisions},
+ymin=0, ymax=12,
+ytick style={color=black},
+ytick={0.5,1.5,2.5,3.5,4.5,5.5,6.5,7.5,8.5,9.5,10.5,11.5},
+yticklabels={
+  {const(prb, C2) - const(sched)},
+  {dec(prb, C1) - toWF(sched)},
+  {inc(prb, C2) - toPF(sched)},
+  {const(prb, C1) - const(sched)},
+  {const(prb, C2) - toRR(sched)},
+  {const(prb, C2) - toPF(sched)},
+  {dec(prb, C1) - const(sched)},
+  {inc(prb, C2) - toRR(sched)},
+  {inc(prb, C2) - const(sched)},
+  {inc(prb, C3) - const(sched)},
+  {const(prb, C2) - toWF(sched)},
+  {dec(prb, C2) - toWF(sched)}
+}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=12, ymin=12, ymax=0] {combined_heatmaps-003.png};
+\draw (axis cs:9.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{5.9%};
+\draw (axis cs:10.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{27.4%};
+\draw (axis cs:11.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.7%};
+\draw (axis cs:6.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{11.8%};
+\draw (axis cs:9.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{2.1%};
+\draw (axis cs:11.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{12.1%};
+\draw (axis cs:6.5,3.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{2.3%};
+\draw (axis cs:7.5,3.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{5.8%};
+\draw (axis cs:9.5,4.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{2.8%};
+\draw (axis cs:10.5,4.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{2.2%};
+\draw (axis cs:10.5,5.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{2.9%};
+\draw (axis cs:11.5,5.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.5%};
+\draw (axis cs:6.5,6.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{3.6%};
+\draw (axis cs:11.5,7.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{3.1%};
+\draw (axis cs:11.5,8.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{2.7%};
+\draw (axis cs:11.5,9.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.1%};
+\draw (axis cs:9.5,10.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.3%};
+\draw (axis cs:10.5,10.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.4%};
+\draw (axis cs:10.5,11.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.3%};
+
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+title={urllc-trf1 - tx_pckts},
+x grid style={darkgray176},
+xlabel={Effects},
+xmin=0, xmax=12,
+xtick style={color=black},
+xtick={0.5,1.5,2.5,3.5,4.5,5.5,6.5,7.5,8.5,9.5,10.5,11.5},
+xticklabel style={rotate=45.0,anchor=east},
+xticklabels={
+  {dec(dl_buffer, Q1)},
+  {const(dl_buffer, Q1)},
+  {inc(dl_buffer, Q1)},
+  {dec(dl_buffer, Q2)},
+  {const(dl_buffer, Q2)},
+  {inc(dl_buffer, Q2)},
+  {dec(dl_buffer, Q3)},
+  {const(dl_buffer, Q3)},
+  {inc(dl_buffer, Q3)},
+  {dec(dl_buffer, Q4)},
+  {const(dl_buffer, Q4)},
+  {inc(dl_buffer, Q4)}
+},
+y dir=reverse,
+y grid style={darkgray176},
+ymin=0, ymax=14,
+ytick style={color=black},
+yticklabel style={rotate=90.0}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=12, ymin=14, ymax=0] {combined_heatmaps-004.png};
+\draw (axis cs:9.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{5.7%};
+\draw (axis cs:10.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{26.2%};
+\draw (axis cs:11.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.0%};
+\draw (axis cs:10.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{10.2%};
+\draw (axis cs:11.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{3.5%};
+\draw (axis cs:10.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{11.1%};
+\draw (axis cs:10.5,3.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{9.8%};
+\draw (axis cs:6.5,4.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{3.1%};
+\draw (axis cs:9.5,4.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{2.0%};
+\draw (axis cs:10.5,5.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.3%};
+\draw (axis cs:11.5,5.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{3.3%};
+\draw (axis cs:10.5,6.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{3.5%};
+\draw (axis cs:10.5,7.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.6%};
+\draw (axis cs:10.5,8.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{2.7%};
+\draw (axis cs:6.5,9.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.2%};
+\draw (axis cs:10.5,9.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.2%};
+\draw (axis cs:10.5,10.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.5%};
+\draw (axis cs:11.5,10.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.1%};
+\draw (axis cs:10.5,11.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.8%};
+\draw (axis cs:10.5,12.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.3%};
+
+\nextgroupplot[
+tick align=outside,
+tick pos=left,
+title={urllc-trf1 - dl_buffer},
+x grid style={darkgray176},
+xlabel={Effects},
+xmin=0, xmax=12,
+xtick style={color=black},
+xtick={0.5,1.5,2.5,3.5,4.5,5.5,6.5,7.5,8.5,9.5,10.5,11.5},
+xticklabel style={rotate=45.0,anchor=east},
+xticklabels={
+  {dec(dl_buffer, Q1)},
+  {const(dl_buffer, Q1)},
+  {inc(dl_buffer, Q1)},
+  {dec(dl_buffer, Q2)},
+  {const(dl_buffer, Q2)},
+  {inc(dl_buffer, Q2)},
+  {dec(dl_buffer, Q3)},
+  {const(dl_buffer, Q3)},
+  {inc(dl_buffer, Q3)},
+  {dec(dl_buffer, Q4)},
+  {const(dl_buffer, Q4)},
+  {inc(dl_buffer, Q4)}
+},
+y dir=reverse,
+y grid style={darkgray176},
+ymin=0, ymax=12,
+ytick style={color=black},
+yticklabel style={rotate=90.0}
+]
+\addplot graphics [includegraphics cmd=\pgfimage,xmin=0, xmax=12, ymin=12, ymax=0] {combined_heatmaps-005.png};
+\draw (axis cs:6.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{11.7%};
+\draw (axis cs:8.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{3.1%};
+\draw (axis cs:9.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{8.6%};
+\draw (axis cs:10.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.5%};
+\draw (axis cs:11.5,0.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{10.0%};
+\draw (axis cs:9.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.1%};
+\draw (axis cs:11.5,1.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{12.8%};
+\draw (axis cs:9.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{9.0%};
+\draw (axis cs:10.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.4%};
+\draw (axis cs:11.5,2.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.6%};
+\draw (axis cs:10.5,3.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{7.1%};
+\draw (axis cs:11.5,3.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{3.1%};
+\draw (axis cs:6.5,4.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.9%};
+\draw (axis cs:9.5,4.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.9%};
+\draw (axis cs:6.5,5.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.2%};
+\draw (axis cs:9.5,5.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{2.2%};
+\draw (axis cs:11.5,6.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{3.5%};
+\draw (axis cs:9.5,7.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.3%};
+\draw (axis cs:11.5,8.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{2.2%};
+\draw (axis cs:6.5,9.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.4%};
+\draw (axis cs:11.5,10.5) node[
+  scale=0.3,
+  text=white,
+  rotate=0.0
+]{1.0%};
+\end{groupplot}
+
+\draw ({$(current bounding box.south west)!0.5!(current bounding box.south east)$}|-{$(current bounding box.south west)!0.98!(current bounding box.north west)$}) node[
+  scale=0.8,
+  anchor=north,
+  text=black,
+  rotate=0.0
+]{Combined Heatmaps for Agents and Slices};
+\end{tikzpicture}

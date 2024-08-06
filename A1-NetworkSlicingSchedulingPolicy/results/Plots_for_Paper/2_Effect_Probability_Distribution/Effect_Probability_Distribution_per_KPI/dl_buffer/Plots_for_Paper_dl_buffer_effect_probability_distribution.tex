@@ -1,0 +1,338 @@
+% This file was created with tikzplotlib v0.10.1.
+\begin{tikzpicture}
+
+\definecolor{crimson2143940}{RGB}{214,39,40}
+\definecolor{darkgray176}{RGB}{176,176,176}
+\definecolor{darkturquoise23190207}{RGB}{23,190,207}
+\definecolor{lightgray204}{RGB}{204,204,204}
+\definecolor{orchid227119194}{RGB}{227,119,194}
+\definecolor{steelblue31119180}{RGB}{31,119,180}
+
+\begin{groupplot}[group style={group size=3 by 1}]
+\nextgroupplot[
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=lightgray204},
+tick align=outside,
+tick pos=left,
+title={Slice 0},
+x grid style={darkgray176},
+xlabel={Effect},
+xmajorgrids,
+xmin=-0.55, xmax=11.55,
+xtick style={color=black},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xticklabel style={rotate=45.0,anchor=east},
+xticklabels={
+  {dec(dl_buffer, Q1)},
+  {const(dl_buffer, Q1)},
+  {inc(dl_buffer, Q1)},
+  {dec(dl_buffer, Q2)},
+  {const(dl_buffer, Q2)},
+  {inc(dl_buffer, Q2)},
+  {dec(dl_buffer, Q3)},
+  {const(dl_buffer, Q3)},
+  {inc(dl_buffer, Q3)},
+  {dec(dl_buffer, Q4)},
+  {const(dl_buffer, Q4)},
+  {inc(dl_buffer, Q4)}
+},
+xticklabels={dec(dl_buffer, Q1),const(dl_buffer, Q1),inc(dl_buffer, Q1),dec(dl_buffer, Q2),const(dl_buffer, Q2),inc(dl_buffer, Q2),dec(dl_buffer, Q3),const(dl_buffer, Q3),inc(dl_buffer, Q3),dec(dl_buffer, Q4),const(dl_buffer, Q4),inc(dl_buffer, Q4)},
+xticklabels={dec(dl_buffer, Q1),const(dl_buffer, Q1),inc(dl_buffer, Q1),dec(dl_buffer, Q2),const(dl_buffer, Q2),inc(dl_buffer, Q2),dec(dl_buffer, Q3),const(dl_buffer, Q3),inc(dl_buffer, Q3),dec(dl_buffer, Q4),const(dl_buffer, Q4),inc(dl_buffer, Q4)},
+xticklabels={dec(dl_buffer, Q1),const(dl_buffer, Q1),inc(dl_buffer, Q1),dec(dl_buffer, Q2),const(dl_buffer, Q2),inc(dl_buffer, Q2),dec(dl_buffer, Q3),const(dl_buffer, Q3),inc(dl_buffer, Q3),dec(dl_buffer, Q4),const(dl_buffer, Q4),inc(dl_buffer, Q4)},
+xticklabels={dec(dl_buffer, Q1),const(dl_buffer, Q1),inc(dl_buffer, Q1),dec(dl_buffer, Q2),const(dl_buffer, Q2),inc(dl_buffer, Q2),dec(dl_buffer, Q3),const(dl_buffer, Q3),inc(dl_buffer, Q3),dec(dl_buffer, Q4),const(dl_buffer, Q4),inc(dl_buffer, Q4)},
+y grid style={darkgray176},
+ylabel={Probability},
+ymajorgrids,
+ymin=-0.0452985425481899, ymax=0.951269393511989,
+ytick style={color=black}
+]
+\addplot [semithick, steelblue31119180, mark=*, mark size=3, mark options={solid}]
+table {%
+0 0.191608996539792
+1 0.18598615916955
+2 0
+3 0
+4 0
+5 0
+6 0.0514705882352941
+7 0.00821799307958477
+8 0.00735294117647059
+9 0.132352941176471
+10 0.0666089965397924
+11 0.356401384083045
+};
+\addlegendentry{embb-trf1}
+\addplot [semithick, crimson2143940, mark=*, mark size=3, mark options={solid}]
+table {%
+0 0.167779261237205
+1 0.196706720071206
+2 0
+3 0.0115709835336004
+4 0.000445037828215398
+5 0.000445037828215398
+6 0.0823319982198487
+7 0.0151312861593235
+8 0.0396083667111704
+9 0.0974632843791722
+10 0.0582999554962172
+11 0.32977303070761
+};
+\addlegendentry{embb-trf2}
+\addplot [semithick, orchid227119194, mark=*, mark size=3, mark options={solid}]
+table {%
+0 0.0164551010813352
+1 0.00188058298072402
+2 0
+3 0
+4 0
+5 0
+6 0.18241654913023
+7 0.00846262341325811
+8 0.0526563234602727
+9 0.250117536436295
+10 0.110954395862717
+11 0.377056887635167
+};
+\addlegendentry{urllc-trf1}
+\addplot [semithick, darkturquoise23190207, mark=*, mark size=3, mark options={solid}]
+table {%
+0 0.0413301662707838
+1 0.00522565320665083
+2 0
+3 0
+4 0
+5 0
+6 0.200475059382423
+7 0.00855106888361045
+8 0.0375296912114014
+9 0.176722090261283
+10 0.13729216152019
+11 0.392874109263658
+};
+\addlegendentry{urllc-trf2}
+
+\nextgroupplot[
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=lightgray204},
+scaled y ticks=manual:{}{\pgfmathparse{#1}},
+tick align=outside,
+tick pos=left,
+title={Slice 1},
+x grid style={darkgray176},
+xlabel={Effect},
+xmajorgrids,
+xmin=-0.55, xmax=11.55,
+xtick style={color=black},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xticklabel style={rotate=45.0,anchor=east},
+xticklabels={
+  {dec(dl_buffer, Q1)},
+  {const(dl_buffer, Q1)},
+  {inc(dl_buffer, Q1)},
+  {dec(dl_buffer, Q2)},
+  {const(dl_buffer, Q2)},
+  {inc(dl_buffer, Q2)},
+  {dec(dl_buffer, Q3)},
+  {const(dl_buffer, Q3)},
+  {inc(dl_buffer, Q3)},
+  {dec(dl_buffer, Q4)},
+  {const(dl_buffer, Q4)},
+  {inc(dl_buffer, Q4)}
+},
+xticklabels={dec(dl_buffer, Q1),const(dl_buffer, Q1),inc(dl_buffer, Q1),dec(dl_buffer, Q2),const(dl_buffer, Q2),inc(dl_buffer, Q2),dec(dl_buffer, Q3),const(dl_buffer, Q3),inc(dl_buffer, Q3),dec(dl_buffer, Q4),const(dl_buffer, Q4),inc(dl_buffer, Q4)},
+xticklabels={dec(dl_buffer, Q1),const(dl_buffer, Q1),inc(dl_buffer, Q1),dec(dl_buffer, Q2),const(dl_buffer, Q2),inc(dl_buffer, Q2),dec(dl_buffer, Q3),const(dl_buffer, Q3),inc(dl_buffer, Q3),dec(dl_buffer, Q4),const(dl_buffer, Q4),inc(dl_buffer, Q4)},
+xticklabels={dec(dl_buffer, Q1),const(dl_buffer, Q1),inc(dl_buffer, Q1),dec(dl_buffer, Q2),const(dl_buffer, Q2),inc(dl_buffer, Q2),dec(dl_buffer, Q3),const(dl_buffer, Q3),inc(dl_buffer, Q3),dec(dl_buffer, Q4),const(dl_buffer, Q4),inc(dl_buffer, Q4)},
+xticklabels={dec(dl_buffer, Q1),const(dl_buffer, Q1),inc(dl_buffer, Q1),dec(dl_buffer, Q2),const(dl_buffer, Q2),inc(dl_buffer, Q2),dec(dl_buffer, Q3),const(dl_buffer, Q3),inc(dl_buffer, Q3),dec(dl_buffer, Q4),const(dl_buffer, Q4),inc(dl_buffer, Q4)},
+y grid style={darkgray176},
+ymajorgrids,
+ymin=-0.0452985425481899, ymax=0.951269393511989,
+ytick style={color=black},
+yticklabels={}
+]
+\addplot [semithick, steelblue31119180, mark=*, mark size=3, mark options={solid}]
+table {%
+0 0.10121107266436
+1 0.756920415224913
+2 0
+3 0
+4 0
+5 0
+6 0.0134083044982699
+7 0.00519031141868512
+8 0.0666089965397924
+9 0.00173010380622837
+10 0.00173010380622837
+11 0.0532006920415225
+};
+\addlegendentry{embb-trf1}
+\addplot [semithick, crimson2143940, mark=*, mark size=3, mark options={solid}]
+table {%
+0 0.0988095238095238
+1 0.785119047619048
+2 0
+3 0
+4 0
+5 0
+6 0.00119047619047619
+7 0.00654761904761905
+8 0.0380952380952381
+9 0.00178571428571429
+10 0.00476190476190476
+11 0.0636904761904762
+};
+\addlegendentry{embb-trf2}
+\addplot [semithick, orchid227119194, mark=*, mark size=3, mark options={solid}]
+table {%
+0 0.0451339915373766
+1 0.905970850963799
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0.00235072872590503
+8 0.0456041372825576
+9 0
+10 0
+11 0.000940291490362012
+};
+\addlegendentry{urllc-trf1}
+\addplot [semithick, darkturquoise23190207, mark=*, mark size=3, mark options={solid}]
+table {%
+0 0.129691211401425
+1 0.691211401425178
+2 0
+3 0.0175771971496437
+4 0.00142517814726841
+5 0.0470308788598575
+6 0.00285035629453682
+7 0.00617577197149644
+8 0.0897862232779097
+9 0
+10 0.000475059382422803
+11 0.0137767220902613
+};
+\addlegendentry{urllc-trf2}
+
+\nextgroupplot[
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=lightgray204},
+scaled y ticks=manual:{}{\pgfmathparse{#1}},
+tick align=outside,
+tick pos=left,
+title={Slice 2},
+x grid style={darkgray176},
+xlabel={Effect},
+xmajorgrids,
+xmin=-0.55, xmax=11.55,
+xtick style={color=black},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xtick={0,1,2,3,4,5,6,7,8,9,10,11},
+xticklabel style={rotate=45.0,anchor=east},
+xticklabels={
+  {dec(dl_buffer, Q1)},
+  {const(dl_buffer, Q1)},
+  {inc(dl_buffer, Q1)},
+  {dec(dl_buffer, Q2)},
+  {const(dl_buffer, Q2)},
+  {inc(dl_buffer, Q2)},
+  {dec(dl_buffer, Q3)},
+  {const(dl_buffer, Q3)},
+  {inc(dl_buffer, Q3)},
+  {dec(dl_buffer, Q4)},
+  {const(dl_buffer, Q4)},
+  {inc(dl_buffer, Q4)}
+},
+xticklabels={dec(dl_buffer, Q1),const(dl_buffer, Q1),inc(dl_buffer, Q1),dec(dl_buffer, Q2),const(dl_buffer, Q2),inc(dl_buffer, Q2),dec(dl_buffer, Q3),const(dl_buffer, Q3),inc(dl_buffer, Q3),dec(dl_buffer, Q4),const(dl_buffer, Q4),inc(dl_buffer, Q4)},
+xticklabels={dec(dl_buffer, Q1),const(dl_buffer, Q1),inc(dl_buffer, Q1),dec(dl_buffer, Q2),const(dl_buffer, Q2),inc(dl_buffer, Q2),dec(dl_buffer, Q3),const(dl_buffer, Q3),inc(dl_buffer, Q3),dec(dl_buffer, Q4),const(dl_buffer, Q4),inc(dl_buffer, Q4)},
+xticklabels={dec(dl_buffer, Q1),const(dl_buffer, Q1),inc(dl_buffer, Q1),dec(dl_buffer, Q2),const(dl_buffer, Q2),inc(dl_buffer, Q2),dec(dl_buffer, Q3),const(dl_buffer, Q3),inc(dl_buffer, Q3),dec(dl_buffer, Q4),const(dl_buffer, Q4),inc(dl_buffer, Q4)},
+xticklabels={dec(dl_buffer, Q1),const(dl_buffer, Q1),inc(dl_buffer, Q1),dec(dl_buffer, Q2),const(dl_buffer, Q2),inc(dl_buffer, Q2),dec(dl_buffer, Q3),const(dl_buffer, Q3),inc(dl_buffer, Q3),dec(dl_buffer, Q4),const(dl_buffer, Q4),inc(dl_buffer, Q4)},
+y grid style={darkgray176},
+ymajorgrids,
+ymin=-0.0452985425481899, ymax=0.951269393511989,
+ytick style={color=black},
+yticklabels={}
+]
+\addplot [semithick, steelblue31119180, mark=*, mark size=3, mark options={solid}]
+table {%
+0 0.122837370242215
+1 0.715397923875433
+2 0
+3 0
+4 0
+5 0
+6 0.0116782006920415
+7 0.00389273356401384
+8 0.0709342560553633
+9 0.00346020761245675
+10 0.00302768166089965
+11 0.0687716262975779
+};
+\addlegendentry{embb-trf1}
+\addplot [semithick, crimson2143940, mark=*, mark size=3, mark options={solid}]
+table {%
+0 0.163328882955051
+1 0.585224744103249
+2 0
+3 0.0160213618157543
+4 0.00845571873609257
+5 0.0298175344904317
+6 0.0129060970182466
+7 0.00623052959501558
+8 0.0854472630173565
+9 0.00534045393858478
+10 0.00489541611036938
+11 0.0818869603916333
+};
+\addlegendentry{embb-trf2}
+\addplot [semithick, orchid227119194, mark=*, mark size=3, mark options={solid}]
+table {%
+0 0.113305124588622
+1 0.740949694405266
+2 0
+3 0
+4 0
+5 0
+6 0.00846262341325811
+7 0.0141043723554302
+8 0.119417019275976
+9 0
+10 0
+11 0.00376116596144805
+};
+\addlegendentry{urllc-trf1}
+\addplot [semithick, darkturquoise23190207, mark=*, mark size=3, mark options={solid}]
+table {%
+0 0.192874109263658
+1 0.507838479809976
+2 0
+3 0.00380047505938242
+4 0.00285035629453682
+5 0.0342042755344418
+6 0.0370546318289786
+7 0.0142517814726841
+8 0.160570071258907
+9 0.00142517814726841
+10 0.00142517814726841
+11 0.0437054631828979
+};
+\addlegendentry{urllc-trf2}
+\end{groupplot}
+
+\draw ({$(current bounding box.south west)!0.5!(current bounding box.south east)$}|-{$(current bounding box.south west)!0.98!(current bounding box.north west)$}) node[
+  anchor=north,
+  text=black,
+  rotate=0.0
+]{Effect Probability Distribution - dl_buffer};
+\end{tikzpicture}
