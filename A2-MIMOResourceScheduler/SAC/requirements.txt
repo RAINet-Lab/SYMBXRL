@@ -1,0 +1,11 @@
+gymnasium
+h5py
+json
+matplotlib
+numpy
+pandas
+pkgutil
+plotly
+subprocess
+sys
+torch
