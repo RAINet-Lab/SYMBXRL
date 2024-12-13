@@ -1,6 +1,0 @@
-gymnasium==0.29.1
-h5py==3.11.0
-numpy==2.0.1
-pyflann-py3==0.1.0
-torch==2.4.0
-
