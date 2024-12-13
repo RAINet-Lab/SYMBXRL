@@ -52,12 +52,10 @@ SYMBXRL/
 │ │ ├── NLOS_lowspeed_64_7.hdf5
 │ │ └── NLOS_test_64_7.hdf5
 │ ├── DQN/ # Implementation of the DQN agent
-│ │ ├── pycache
 │ │ ├── DQNAgent.py # DQN agent class
 │ │ ├── DQN_main.py # Main script for training the DQN agent
 │ │ └── DQN_test.py # Script for testing the trained DQN agent
 │ ├── SAC/ # Implementation of the SAC agent
-│ │ ├── pycache
 │ │ ├── action_space.py # Defines the action space for the agent
 │ │ ├── model.py # Neural network models for SAC
 │ │ ├── replay_memory.py # Replay buffer implementation
@@ -67,7 +65,6 @@ SYMBXRL/
 │ │ ├── SACArgs.py # Arguments for SAC
 │ │ ├── smartfunc.py # Utility functions for SAC
 │ │ ├── Action_Steering/ # Code related to Action Steering
-│ │ │ ├── pycache
 │ │ │ ├── action_steering_utils.py # Utility functions for action steering
 │ │ │ ├── decision_graph.py # Creates a decision graph based on agent's behavior
 │ │ │ ├── experiment_constants.py # Constants for experiments
