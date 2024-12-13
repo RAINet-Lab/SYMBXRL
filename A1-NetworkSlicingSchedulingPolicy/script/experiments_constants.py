@@ -1,5 +1,5 @@
 import os
-from constants import proj_address
+from constants import PROJ_ADDR
 
 
 # The association of folder number with agents
@@ -79,7 +79,7 @@ PRB_CATEGORY_LIST = {
 
 
 # # The address for loading experiment data in the main file
-EXPERIMENT_DATA_DIR_ADRESS = f"{proj_address}/A1-NetworkSlicingSchedulingPolicy/data/raw-exps/" 
+EXPERIMENT_DATA_DIR_ADRESS = f"{PROJ_ADDR}/A1-NetworkSlicingSchedulingPolicy/data/raw-exps/" 
 EXPERIMENT_DATA_LOG_FILE_NAME = "/xapp_drl_sched_slicing_ric_26_agent.log"
 
 # # The address for loading experiment data with reward
@@ -87,7 +87,7 @@ EXPERIMENT_DATA_LOG_FILE_NAME = "/xapp_drl_sched_slicing_ric_26_agent.log"
 # EXPERIMENT_DATA_LOG_FILE_NAME_REWARD = "/xapp_drl_sched_slicing_ric_26_agent.log"
 
 # # New constants for directory and names of the csv files
-STORAGE_DIRECTORY = f"{proj_address}/A1-NetworkSlicingSchedulingPolicy/data/symbxrl/"
+STORAGE_DIRECTORY = f"{PROJ_ADDR}/A1-NetworkSlicingSchedulingPolicy/data/symbxrl/"
 CLEANED_EXPERIMENT_DATA_FILE_SUFFIX = "_cleaned_experiment_data.csv"
 CLEANED_SCHEDULING_POLICY_DATA_FILE_SUFFIX = "_cleaned_scheduling_policy_data.csv"
 SYMBOLIC_DATA_FILE_SUFFIX = "_symbolic_data.csv"

@@ -7,8 +7,13 @@ DISCLAIMER: THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, 
 BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 '''
 
+import os
 import sys
-sys.path.insert(0, '../')
+# Get the directory two levels up from the script's location
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.abspath(os.path.join(script_dir, '..', '..'))
+sys.path.insert(0, project_root)
+from constants import PROJ_ADDR
 import numpy as np
 import gymnasium as gym
 import h5py
@@ -18,6 +23,9 @@ from replay_memory import ReplayMemory
 from smartfunc import sel_ue
 import torch
 import time
+script_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(script_dir)  # goes up one level to A2-MIMOResourceScheduler
+sys.path.insert(0, parent_dir)
 from custom_mimo_env import MimoEnv
 import os
 
@@ -25,7 +33,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Device: {device}")
 # Load data
 
-H_file = h5py.File('/home/abhishek/data/A2/Datasets/LOS_highspeed2_64_7.hdf5','r')
+H_file = h5py.File(f'{PROJ_ADDR}/A2-MIMOResourceScheduler/Datasets/LOS_highspeed2_64_7.hdf5','r')
 H = np.array(H_file.get('H'))
 se_max_ur = np.array(H_file.get('se_max'))
 print('Data loaded successfully')
@@ -51,7 +59,7 @@ agent = SAC(num_states, num_actions, max_actions, args, args.lr, args.alpha_lr)
 memory = ReplayMemory(args.replay_size, args.seed)
 
 # Load the model
-agent.load_checkpoint('/home/abhishek/data/A2/models/SACG_884.53_551_dtLOS_HS2_checkpointed.pth_')
+agent.load_checkpoint(f'{PROJ_ADDR}/A2-MIMOResourceScheduler/models/SACG_884.53_551_dtLOS_HS2_checkpointed.pth_')
 print('SAC build finished')
 
 
@@ -79,6 +87,6 @@ while not done:
     step_rewards.append(reward)
     mean_reward = np.mean(step_rewards)
     mean_rew.append(mean_reward)
-    test_print = f'Step: {info["current_step"]} |Action taken: {ue_select} | Step Reward: {reward} | Mean Reward: {mean_reward:.3f} | Score: {score:.3f}\n'
-    print(test_print)        
+    test_print = f'Step: {info["current_step"]} / {env.total_steps - 1} |Action taken: {ue_select} | Step Reward: {reward} | Mean Reward: {mean_reward:.3f} | Score: {score:.3f}'
+    print(test_print, end='\r')        
     observation = next_obs
