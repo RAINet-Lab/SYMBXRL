@@ -105,20 +105,26 @@ SYMBXRL/
 
     -   It is recommended to create a virtual environment (e.g., using `conda` or `venv`) to manage dependencies.
     -   Each agent's directory may contain its specific environment file:
-        - For the A1 agent, use the provided files `conda-environment.yml` or `pip-requirements.txt` inside `A1-NetworkSlicingSchedulingPolicy/`.
+        - For the A1 agent, refer to the instructions in `A1-NetworkSlicingSchedulingPolicy/README.md`.
         - For the A2 agent, refer to the instructions in `A2-MIMOResourceScheduler/README.md`.
 
-        For the A1 agent, you can create an environment using conda:
+        To run the code, you can create an environment using conda:
 
         ```bash
-        conda env create -f A1-NetworkSlicingSchedulingPolicy/conda-environment.yml
+        conda env create -f conda-environment.yml
         conda activate symbxrl-env
         ```
 
         or using pip:
 
         ```bash
-        pip install -r A1-NetworkSlicingSchedulingPolicy/pip-requirements.txt
+        pip install -r pip-requirements.txt
+        ```
+
+        then update the root path of the project in the `constants.py` file.
+        ```
+        #### Root Address of the project
+        PROJ_ADDR = '<path_to_project>'
         ```
 
 3. **Explore the Code:**
