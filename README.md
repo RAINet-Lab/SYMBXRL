@@ -21,6 +21,8 @@ This paper introduces SYMBXRL, a novel technique for Explainable Reinforcement L
 -   Demonstrates that SYMBXRL's symbolic representation enables Intent-based Action Steering (IAS), improving cumulative rewards and enforcing operational constraints.
 -   Shows that IAS outperforms existing XRL methods like METIS in terms of reward improvement.
 
+Refer [Manuscript-details](./Manuscript-details) for the complete paper and further details.
+
 **Repository Structure:**
 ```
 SYMBXRL/
