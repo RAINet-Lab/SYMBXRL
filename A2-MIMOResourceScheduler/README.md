@@ -62,10 +62,8 @@ For using this environment, please refer to the LICENSE and acknowledge our publ
 - Run the Notebook `1.SAC_Agent_action_steering.ipynb`. 
 
 ## Repository Structure
-```markdown
-## Repository Structure
 
-```bash
+```
 A2/
 │
 ├── custom_mimo_env.py                 # Root file for the MIMO environment simulator
