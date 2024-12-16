@@ -25,6 +25,8 @@ For using this environment, please refer to the LICENSE and acknowledge our publ
   IEEE Transactions on Machine Learning in Communications and Networking, 2023.  
   DOI: 10.1109/TMLCN.2023.3313988
 
+Please refer Dataset Webiste and documents on how the raw data files are preprocessed for the environment ready use.  
+
 
 ## Installation and Setup
 
@@ -67,15 +69,9 @@ For using this environment, please refer to the LICENSE and acknowledge our publ
 A2/
 │
 ├── custom_mimo_env.py                 # Root file for the MIMO environment simulator
-├── Datasets/                          # Contains training and testing datasets
-│   ├── LOS_lowspeed_64_7.hdf5
-│   ├── LOS_highspeed1_64_7.hdf5
+├── Datasets/                          # Contains datasets (Refer RENEW Website for complete Datasets)
 │   ├── LOS_highspeed2_64_7.hdf5
-│   ├── NLOS_lowspeed_64_7.hdf5
-│   ├── NLOS_highspeed1_64_7.hdf5
-│   ├── NLOS_highspeed2_64_7.hdf5
-│   ├── LOS_test_64_7.hdf5             # Test datasets
-│   └── NLOS_test_64_7.hdf5
+│
 │
 ├── DQN/                               # DQN Agent implementation
 │   ├── DQN_main.py
