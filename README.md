@@ -2,16 +2,33 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the code and resources for the research paper:
+This repository contains the code and resources for the research paper accepted at **IEEE INFOCOM 2025**:
 
-> **SYMBXRL: Symbolic Explainable Deep Reinforcement Learning for Mobile Networks**
->
-> *Abhishek Duttagupta∗†♢, MohammadErfan Jabbari∗♢, Claudio Fiandrino∗, Marco Fiore∗ and Joerg Widmer∗
-> ∗IMDEA Networks Institute, Spain, †Universidad Carlos III de Madrid, Spain
-> Email: {name.surname}@imdea.org*
-> ♢ These authors contributed equally to this work
+> **SYMBXRL: Symbolic Explainable Deep Reinforcement Learning for Mobile Networks**  
+> *Abhishek Duttagupta∗†♢, MohammadErfan Jabbari∗♢, Claudio Fiandrino∗, Marco Fiore∗, and Joerg Widmer∗*  
+>  
+> ∗IMDEA Networks Institute, Spain  
+> †Universidad Carlos III de Madrid, Spain  
+>  
+> Email: {name.surname}@imdea.org  
+>  
+> ♢ These authors contributed equally to this work.
 
-**Abstract:**
+## Abstract
+The operation of future 6th-generation (6G) mobile networks will increasingly rely on the ability of Deep Reinforcement Learning (DRL) to optimize network decisions in real-time. However, trained DRL agents are closed-boxes and inherently difficult to explain, which hinders their adoption in production settings. In this paper, we present **SymBXRL**, a novel technique for **Explainable Reinforcement Learning (XRL)** that synthesizes human-interpretable explanations for DRL agents. SymBXRL leverages symbolic AI to produce explanations where key concepts and their relationships are described via intuitive symbols and rules. We validate SymBXRL in practical network management use cases, proving that it not only improves the semantics of the explanations but also enables intent-based programmatic action steering, improving the median cumulative reward by 12% over a pure DRL solution.
+
+## Citation
+If you find this work useful, please cite our paper:
+
+```bibtex
+@inproceedings{symbxrl2025,
+  TITLE="{SymbXRL:} Symbolic Explainable Deep Reinforcement Learning for Mobile Networks",
+  AUTHOR="Abhishek Duttagupta and MohammadErfan Jabbari and Claudio Fiandrino and Marco Fiore and Joerg Widmer",
+  booktitle={IEEE INFOCOM 2025},
+  year={2025},
+    note={{Available online: }\url{https://github.com/RAINet-Lab/symbxrl}}
+}
+```
 
 This paper introduces SYMBXRL, a novel technique for Explainable Reinforcement Learning (XRL) that synthesizes human-interpretable explanations for Deep Reinforcement Learning (DRL) agents operating in mobile network environments. SYMBXRL leverages symbolic AI, specifically First-Order Logic (FOL), to generate explanations that describe key concepts, relationships, and the decision-making process of DRL agents through intuitive symbols and rules. This approach offers more comprehensible descriptions of agent behavior compared to existing XRL methods.
 
