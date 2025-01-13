@@ -7,8 +7,9 @@ This repository contains the code and resources for the research paper:
 > **SYMBXRL: Symbolic Explainable Deep Reinforcement Learning for Mobile Networks**
 >
 > *Abhishek Duttagupta∗†♢, MohammadErfan Jabbari∗♢, Claudio Fiandrino∗, Marco Fiore∗ and Joerg Widmer∗
-∗IMDEA Networks Institute, Spain, †Universidad Carlos III de Madrid, Spain
-Email: {name.surname}@imdea.org*
+> ∗IMDEA Networks Institute, Spain, †Universidad Carlos III de Madrid, Spain
+> Email: {name.surname}@imdea.org*
+> ♢ These authors contributed equally to this work
 
 **Abstract:**
 
