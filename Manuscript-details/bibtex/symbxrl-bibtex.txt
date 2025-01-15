@@ -1,0 +1,7 @@
+@inproceedings{symbxrl2025,
+  TITLE="{SymbXRL:} Symbolic Explainable Deep Reinforcement Learning for Mobile Networks",
+  AUTHOR="Abhishek Duttagupta and MohammadErfan Jabbari and Claudio Fiandrino and Marco Fiore and Joerg Widmer",
+  booktitle={IEEE INFOCOM 2025},
+  year={2025},
+    note={{Available online: }\url{https://github.com/RAINet-Lab/symbxrl}}
+}
