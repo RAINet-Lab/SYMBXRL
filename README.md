@@ -29,7 +29,6 @@ If you find this work useful, please cite our paper:
     note={{Available online: }\url{https://github.com/RAINet-Lab/symbxrl}}
 }
 ```
-Refer [Manuscript-details](./Manuscript-details) for the complete paper and further details.
 
 This paper introduces SYMBXRL, a novel technique for Explainable Reinforcement Learning (XRL) that synthesizes human-interpretable explanations for Deep Reinforcement Learning (DRL) agents operating in mobile network environments. SYMBXRL leverages symbolic AI, specifically First-Order Logic (FOL), to generate explanations that describe key concepts, relationships, and the decision-making process of DRL agents through intuitive symbols and rules. This approach offers more comprehensible descriptions of agent behavior compared to existing XRL methods.
 
