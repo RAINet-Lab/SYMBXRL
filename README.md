@@ -1,6 +1,6 @@
 # SYMBXRL: Symbolic Explainable Deep Reinforcement Learning for Mobile Networks
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/905837844.svg)](https://doi.org/10.5281/zenodo.15745270)
 
 This repository contains the code and resources for the research paper accepted at **IEEE INFOCOM 2025**:
 
